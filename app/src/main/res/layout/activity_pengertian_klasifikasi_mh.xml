@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9DEFF"
+    tools:context=".klasifikasimh.PengertianKlasifikasiMh">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="PENGERTIAN KLASIFIKASI MAHKLUK HIDUP"
+                android:background="@drawable/bg_merah"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                tools:src="@tools:sample/avatars"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:text="Gambar 3.17 : Buah yang dijual disusun berkelompok berdasarkan jenisnya
+Sumber : reference.com"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Klasifikasi merupakan suatu cara yang sistematis dalam mempelajari objek (misalnya makhluk hidup) dengan melihat persamaan dan perbedaan ciri makhluk hidup. Ilmu yang mempelajari tentang klasifikasi makhluk hidup disebut taksonomi. Pelopor taksonomi adalah Carolus Linnaeus. "
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:padding="10dip"
+                android:background="#C9FFFFFF"
+                android:justificationMode="inter_word"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

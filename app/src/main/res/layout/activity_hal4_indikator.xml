@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hal4_indikator"
+    android:background="#009BA2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_vector_test"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="INDIKATOR PENCAMPAIAN KOMPETENSI"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:background="@color/white">
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.1"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan pengertian makhluk hidup dan tak hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.2"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Mengidentifikasi ciri-ciri makhluk hidup dan tak hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.3"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan perbedaan makhluk hidup dan tak hidup."
+                            android:textColor="@color/black"
+                            android:justificationMode="inter_word"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.4"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menyebutkan contoh makhluk hidup dan tak hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.5"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Mengklasifikasi makhluk hidup yang ada disekitar."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.6"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan manfaat dan tujuan klasifikasi makhluk hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.7"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan tata cara pemberian nama ilmiah."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.8"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Mengelompokan makhluk hidup dengan cara dikotom."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.9"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan urutan taksonomi hewan dan tumbuhan dari tingkatan tinggi ke tingkat rendah."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.10"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Mendeskripsikan ciri masing-masing 5 kingdom makhluk hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.11"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menyebutkan contoh dari masing-masing 5 kingdom makhluk hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.12"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan peranan (keuntungan) dari masing 5 kingdom makhluk hidup dalam kehidupan."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.2.13"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Menjelaskan kerugian dari masing-masing 5 kingdom makhluk hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.2.1"
+                            android:padding="5dip"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="5dip"
+                            android:text="Mempresentasikan hasil diskusi tentang kunci determinasi dan klasifikasi makhluk hidup."
+                            android:justificationMode="inter_word"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"/>
+                    </TableRow>
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

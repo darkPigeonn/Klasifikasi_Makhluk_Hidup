@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9DEFF"
+    tools:context=".klasifikasimh.ManfaatDanKlasifikasi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="MANFAAT DAN TUJUAN KLASIFIKASI MAKHLUK HIDUP"
+                android:background="@drawable/bg_merah"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#C9FFFFFF">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:padding="10dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:justificationMode="inter_word"
+                        android:text="Manfaat klasifikasi makhluk hidup adalah memudahkan dalam mempelajari makhluk hidup yang sangat beraneka ragam. Serta Untuk melihat hubungan kekerabatan antar makhluk hidup yang satu dengan yang lain dan membantu penelusuran asal usul suatu organisme."/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:padding="10dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:justificationMode="inter_word"
+                        android:text="Tujuan klasifikasi makhluk hidup adalah untuk membuat proses pengkajian menjadi lebih mudah dan lebih sederhana, membantu proses identifikasi, mengetahui hubungan antar organisme. Pengelompokan makhluk hidup dapat berdasarkan misalnya; habitat, jenis makanan, waktu mencari makan, penutup tubuhnya, jumlah keping biji, letak bakal biji, sistem pernapasan dan sistem peredaran darah. "    />
+                </TableRow>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

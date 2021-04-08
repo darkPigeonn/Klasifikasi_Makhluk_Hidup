@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hal4_menukompetensi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h4background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/h4judulkompetensi"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/btn_kompetensiInti"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/h4komponeninti"/>
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/btn_kompetensiDasar"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/h4kompetensidasar"/>
+                <ImageView
+                    android:id="@+id/btn_indikator"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/h4indikator"/>
+                <ImageView
+                    android:id="@+id/btn_tujuanpembelajaran"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/h4tujuanpembelejaran"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

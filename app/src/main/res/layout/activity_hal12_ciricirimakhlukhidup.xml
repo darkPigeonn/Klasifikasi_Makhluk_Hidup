@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9DEFF"
+    tools:context=".cirimh.hal12_ciricirimakhlukhidup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="Ciri-Ciri makhluk hidup dan tak hidup "
+                android:background="@drawable/rectangle_rounded"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Ciri-ciri makhluk tak hidup diantaranya tidak dapat bergerak, tidak mengadakan metabolisme, dan tidak mempertahankan jenisnya serta tidak ada tanggapan terhadap rangsangan. Sedangkan ciri makhluk hidup dibagi menjadi 8 yaitu bergerak, makan, peka terhadap rangsangan, bernapas, tumbuh, mengeluarkan zat sisa (ekskresi), berkembang biak dan beradaptasi."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:padding="18dip"
+                android:justificationMode="inter_word"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cirimh.BerkembangBiak"
+
+    android:background="#C9DEFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:padding="12dip"
+                android:textAlignment="center"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="BERKEMBANG BIAK"
+                android:background="@drawable/bgkayu"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Induk ayam melahirkan anak ayam, dari individu berkembang menjadi banyak individu. Itulah yang disebut berkembang biak (reproduksi). Semua makhluk hidup dapat berkembang biak. Perkembangbiakan dapat terjadi secara kawin (seksual / generatif) dan tak kawin (aseksual / vegetatif). Contohnya seekor ayam betina bertelur, telur tersebut dierami dan menetas menjadi anak ayam kemudian tumbuh dan berkembang biak (Gambar 3.12). Serta biji akan berkecambah dan akan tumbuh menjadi pohon (Gambar 3.13). "
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:padding="18dip"
+                android:justificationMode="inter_word"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
