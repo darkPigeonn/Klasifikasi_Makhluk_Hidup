@@ -41,9 +41,11 @@
                 android:padding="10dip"
                 android:justificationMode="inter_word"/>
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:scaleType="fitXY"/>
+                android:padding="20dp"
+                android:src="@drawable/h22gamabar"
+                android:scaleType="fitXY" />
 
 
         </LinearLayout>
@@ -67,6 +69,7 @@
                 android:gravity="center_vertical"
                 android:textColor="@color/black"
                 android:text="Video makhluk hidup dan tak hidup"/>
+
         </LinearLayout>
     </RelativeLayout>
 

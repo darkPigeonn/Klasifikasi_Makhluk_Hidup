@@ -39,6 +39,12 @@
                 android:textSize="19sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h16gambar"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="30dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"

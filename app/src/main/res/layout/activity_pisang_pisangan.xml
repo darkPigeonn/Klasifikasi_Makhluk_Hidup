@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.monokotil.PisangPisangan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Pisang-pisangan
+(Musaceae)"
+                android:background="@drawable/bg_pink"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Pisang-pisangan (Musaceae), memiliki ciri-ciri antara lain daunnya berpelepah, tulang daun menyirip dan bentuknya seperti lancet, batang merupakan batang semu, bunga merupakan bunga majemuk yang berupa karangan, ada yang berkelamin satu dan ada yang berkelamin banyak. Contohnya: pisang ambon (Musa acuminata C.), pisang tanduk (Musa paradisiaca) (Gambar 3.40)."
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h59gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

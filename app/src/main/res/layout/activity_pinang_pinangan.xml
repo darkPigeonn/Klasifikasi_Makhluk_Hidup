@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.monokotil.PinangPinangan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="pinang-pinangan
+(Palmae)"
+                android:background="@drawable/bg_pink"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Pinang-pinangan (Palmae), memiliki ciri-ciri yaitu daunnya menyitip atau berbentuk kipas, tidak bercabang, perakaran serabut, bunga biasanya berupa tongkol atau   karangan yang terletak pada ketiak daun atau ujung daun dan biasanya hidup berumpun. Contohnya kelapa (Cocus nucifera), pinang (Areca catechu), sagu  (Metroxylon  sagu), enau (Arenga pinnata) dan kelapa sawit (Elaeis guinensis) (Gambar 3.41)."
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h60gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

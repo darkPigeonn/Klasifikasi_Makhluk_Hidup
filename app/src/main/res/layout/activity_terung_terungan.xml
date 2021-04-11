@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.dikotil.TerungTerungan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Suku terung-terungan
+(Solanaceae)"
+                android:background="@drawable/bg_pink"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Suku terung-terungan (Solanaceae), memiliki ciri-ciri biasanya berupa semak-semak, tumbuhan perdu atau bisa juga pohon.berdaun tunggal atau majemuk, bagian  tepi daun berlekuk, bunga berbentuk bintang, terompet. Contohnya tomat (Solanum lycopersicum), cabai (Capsicum annum L), ranti (Solanum nigrum), kentang  (Solanum tuberosum L.) dan paprika (Capsicum annuum L.) (Gambar 3.38)"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h56gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

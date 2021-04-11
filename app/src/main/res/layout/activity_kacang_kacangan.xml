@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.dikotil.KacangKacangan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Suku kacang-kacangan
+(Papilionaceae)"
+                android:background="@drawable/bg_pink"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="Suku kacang-kacangan (Papilionaceae), memiliki ciri-ciri mahkota bunga berbentuk kupu-kupu, buahnya polong sering ditemukan bintil akar serta mahkota bunga berbentuk kupu-kupu. Contohnya: kacang tanah (Arachis hypogaea), kacang kedelai (Glycine max), kacang panjang (V. unguiculata) (Gambar3.37)."
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h55gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

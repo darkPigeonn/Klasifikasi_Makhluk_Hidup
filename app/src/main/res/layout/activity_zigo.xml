@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggradien"
+    tools:context=".contoh5kindom.Zigo">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="ZIGOMYCOTINA"
+                android:background="@drawable/bg_coklat"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:textSize="19sp"
+                android:textColor="@color/white"
+                android:text="Zigomycotina memiliki ciri-ciri yaitu: hidup di tempat-tempat lembap, membentuk spora istirahat berdinding tebal yang disebut zigospora, mempunyai hifa bercabang-cabang dan tidak bersekat (soenositik) dengan dinding sel tersusun atas zat kitin. Ada tiga tipe hifa Zigomicotina, yaitu stolon yaitu hifa yang membentuk jaringan pada permukaan substrat dan menghubungkan dua kumpulan sporangium. Rizoid yaitu hifa yang menembus substrat untuk menyerap makanan, sporangiofor yaitu hifa yang tumbuh tegak pada permukaan substrat dan memiliki sporangia globuler (berbentuk bulat) di ujung-ujungnya. Berkembangbiak dengan zigospora. Contohnya jamur tempe (Rhizopus oryzae)  (Gambar 3.31)."
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h44gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.monokotil.BawangBawangan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="RUMPUT - RUMPUTAN
+(GRAMINEAE)"
+                android:background="@drawable/bg_pink"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="20sp"
+                android:text="Rumput-rumputan (Gramineae), ciri-cirinya memiliki daun berbentuk pita, tulang daun sejajar dan melekat langsung pada batang, batang sedikit berongga, berakar serabut, berbentuk bulir, penyerbukan dibantu oleh angin. Contohnya gandum (Triticum aestivum), tebu (Saccharum officinarum L.), bambu betung (D. asper) dan  padi (Oryza sativa) (Gambar 3.43)."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/padi"
+                android:scaleType="fitXY"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

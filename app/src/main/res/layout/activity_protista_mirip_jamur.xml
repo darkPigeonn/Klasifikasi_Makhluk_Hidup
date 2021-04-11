@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggradien"
+    tools:context=".contoh5kindom.ProtistaMiripJamur">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h39background">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="PROTISTA MIRIP JAMUR"
+                android:background="@drawable/bg_kuning2q"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="382dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="  Protista mirip jamur terdiri dari jamur air (Oomycota) dan jamur lendir (Myxomycota). Jamur air  yang mempu bergerak seperti amoeba dan menghasilkan spora serta jamur air yang menghasilkan oospora yang mampu bertahan dalam lingkungan yang tidak baik. Jamur lendir memiliki ciri fase vegetatifnya mampu bergerak seperti amoeba, serta bereproduksi dengan menghasilkan spora. Contoh jamur air ialah Phytophthora sedangkan jamur lendir contohnya Fuligo sp (Gambar 3.28). "
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:paddingTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h40gambar"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

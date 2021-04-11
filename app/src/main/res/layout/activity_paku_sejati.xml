@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7D0D8"
+    tools:context=".contoh5kindom.paku.PakuSejati">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginEnd="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="PAKU SEJATI
+(FILICINAE)"
+                android:background="@drawable/bg_ijo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="25sp"
+                android:text="Paku sejati (Filicinae), memiliki ciri-ciri yaitu daunnya berukuran besar, sporangium terdapat pada sporofil dan daun mudanya menggulung, sorus berkumpul pada ujung, tepi dan tersebar dipermukaan daun. Contohnya: semanggi (Marsilea crenata), suplir (Adiantum) (Gambar 3.44)."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h64gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

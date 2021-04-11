@@ -34,10 +34,10 @@
             <ImageView
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="180dp"
                 android:scaleType="fitXY"
                 android:layout_gravity="center_horizontal"
-                tools:src="@tools:sample/avatars"/>
+                tools:src="@drawable/h24gambar2"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
