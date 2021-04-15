@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hewanberulangbelakang.reptilia">
+    tools:context="lumut.lumuttanduk">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -19,27 +19,29 @@
 
             <TextView
                 android:textAlignment="center"
-                android:padding="20dp"
+                android:padding="10dp"
                 android:layout_marginEnd="110dp"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:textSize="25sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="KELAS REPTILIA"
-                android:background="@drawable/bg_merah"/>
+                android:text="LUMUT TANDUK
+(ANTHOCEROTOPHYTA)"
+                android:background="@drawable/bghijau"/>
             <TextView
                 android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:textSize="18sp"
+                android:textSize="19sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-               android:text="Hewan kelas reptilia memiliki ciri-ciri sebagai berikut: tubuhnya terdiri atas kepala, leher, badan dan ekor. Habitat hidupnya di darat dan di air, tubuhnya ditutupi oleh sisik yang tersusun atas zat tanduk, bernapas dengan paru-paru, berkembangbiak dengan cara bertelur. Contohnya buaya (Crocodylus porosus), kura-kura daun (Cyclemys dentata), kadal (Eutropis multifasciata), penyu, ular (Gambar 3.62). "/>
+                android:text="Lumut tanduk (Anthocerotophyta), memiliki ciri-ciri yaitu tubuhnya berbentuk seperti tanduk, habitatnya di daerah yang memiliki kelembaban cukup tinggi, seluruh poros sporangium ini terdiri dari sebuah jaringan atas dan beberapa sel mandul. Contohnya: lumut tanduk (Anthoceros natans)  (Gambar 3.50)."/>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/h86gambar"
+                android:src="@drawable/h71gambar"
                 android:scaleType="fitXY"
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"/>

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KlasifikasiMakhlukHidup">
-        <activity android:name="hewanberulangbelakang.reptilia"></activity>
+        <activity android:name="lumut.lumuthati"></activity>
+        <activity android:name="lumut.lumutdaun" />
+        <activity android:name="lumut.lumuttanduk" />
+        <activity android:name="hewanberulangbelakang.reptilia" />
         <activity android:name="hewanberulangbelakang.pisces" />
         <activity android:name="hewanberulangbelakang.ampibhia" />
         <activity android:name="hewanberulangbelakang.aves" />
