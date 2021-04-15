@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hewantakbertulangbelakang.echinodermata">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h74backround">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="20dp"
+                android:layout_marginEnd="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="ECHINODERMATA"
+                android:background="@drawable/bg_kuning"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Ciri-ciri dari Echinodermata antara lain: tubuhnya kasar dan berduri serta teridiri dari 3 lapisan dan memiliki rongga tubuh yang disebut dengan tripoblastik. Tubuhnya berbentuk seperti binatang atau seperti bola, hidup dilaut, memiliki kulit tubuh yang terisi zat kitin, bergerak dengan ambulakral yakni kaki tabung dengan lubang-lubang kecil yang berfungsi untuk menghisap. Kemudian perkembangbiakannya secara seksual, pada permukaan tubuh terdiri atas tonjolan-tonjolan yang menyerupai duri. Contohnya yaitu: landak laut (Echinus melo), bintang laut (Asterias amuneris), lilia laut (Crinoidea) dan teripang (Holothuria scabra) (Gambar 3.52)."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/h75gambar"
+                android:scaleType="fitXY"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

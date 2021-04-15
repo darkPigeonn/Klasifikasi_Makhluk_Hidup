@@ -7,4 +7,84 @@
     android:background="@drawable/bggradien"
     tools:context=".contoh5kindom.Alga">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h38backround">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <TextView
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginEnd="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="PROTISTA MIRIP TUMBUHAN (ALGA / GANGGANG)"
+        android:background="@drawable/bg_kuning"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="rotista mirip tumbuhan digolongkan menjadi empat jenis berdasarkan pigmen yang dikandungnya diantaranya adalah alga hijau, alga kersik, alga merah dan alga pirang.
+-Alga hijau (Chlorophyceae), memiliki ciri-ciri diantaranya mempunyai pigmen hijau, multiseluler, berbentuk benang atau lembaran. Contohnya: Spirogyra, Chlorella dan Chlorococcum (Gambar 3.25)." />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="130dp"
+        android:src="@drawable/h39gambar1"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="-Alga kersik (Chrysophyceae), memiliki ciri-ciri diantaranya bangkai alga ini didasar laut akan membentuk lapisan tanah yang disebut diatom.
+-Alga merah (Rhodophyceae), memiliki ciri-ciri diantaranya yaitu mempunyai pigmen fikoeritrin (merah), hidup dilaut. Contohnya: Eucheuma spinosum (Gambar 3.26)"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="130dp"
+        android:src="@drawable/h39gambar2"
+        android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="-Alga pirang (Phaeophyceae), hidup pada habitat perairan tawar dan perairan laut, berwarna keemasan, banyak mengandung asam alginat serta bereproduksi dengan cara seksual dan aseksual. Contohnya: Sargassum dan Turbinaria (Gambar 3.27)"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="130dp"
+            android:src="@drawable/h39gambar3"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
