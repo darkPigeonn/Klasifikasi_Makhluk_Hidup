@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Klasifikasi Makhluk Hidup</string>
+    <string name="menu_utama">Menu Utama</string>
+    <string name="menu_kompetensi">Menu Kompetensi</string>
 </resources>

@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KlasifikasiMakhlukHidup">
-        <activity android:name="lumut.lumuthati"></activity>
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".PetunjukPenggunaan"></activity>
+        <activity android:name="lumut.lumuthati" />
         <activity android:name="lumut.lumutdaun" />
         <activity android:name="lumut.lumuttanduk" />
         <activity android:name="hewanberulangbelakang.reptilia" />
@@ -63,7 +64,13 @@
         <activity android:name=".cirimh.bergerak" />
         <activity android:name=".hal10_menumateri" />
         <activity android:name=".cirimh.hal12_ciricirimakhlukhidup" />
-        <activity android:name=".hal11_pengertianmakhlukhidup" />
+        <activity android:name=".hal11_pengertianmakhlukhidup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".hal5_petakonsep" />
         <activity android:name=".hal4_tujuanpembelajaran" />
         <activity android:name=".hal4_indikator" />
@@ -71,14 +78,10 @@
         <activity android:name=".hal4_kompetensiinti" />
         <activity android:name=".hal4_menukompetensi" />
         <activity android:name=".hal2_menuutama" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SplashScreen">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

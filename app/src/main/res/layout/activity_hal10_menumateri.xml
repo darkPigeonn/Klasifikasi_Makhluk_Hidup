@@ -17,12 +17,26 @@
             android:orientation="vertical"
             android:layout_marginTop="20dp"
             >
-            <ImageView
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/atas"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/h10judul"
-                android:layout_marginStart="40dp"
-                android:layout_marginEnd="40dp"/>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/h10judul"/>
+
+                <ImageButton
+                    android:id="@+id/menubar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_baseline_menu_24"
+                    android:layout_alignParentRight="true"
+                    android:onClick="showPopup" />
+            </LinearLayout>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"

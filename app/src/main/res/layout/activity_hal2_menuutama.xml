@@ -12,28 +12,28 @@
         android:background="@drawable/h2_bgmenuutama">
 
         <LinearLayout
+            android:layout_marginTop="25dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
 
             android:layout_marginStart="50dp"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true">
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/h2_judulmenuutama"/>
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/h2_judulmenuutama" />
 
             <ImageView
                 android:id="@+id/btn_petunjukpenggunaan"
-                android:layout_marginStart="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginStart="10dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/h2_btnpetunjukpenggunaan"/>
+                android:src="@drawable/h2_btnpetunjukpenggunaan" />
 
 
             <ImageView
@@ -83,7 +83,6 @@
                 android:background="@drawable/h2_btninformasi" />
 
         </LinearLayout>
-
 
 
     </RelativeLayout>
