@@ -5,16 +5,38 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.PopupMenu;
 
 import com.example.klasifikasimakhlukhidup.cirimh.hal12_ciricirimakhlukhidup;
 
-public class hal11_pengertianmakhlukhidup extends AppCompatActivity {
+public class hal11_pengertianmakhlukhidup extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
     float x1,x2,y1,y2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal11_pengertianmakhlukhidup);
+    }
+    public void showPopup(View view) {
+        PopupMenu popupMenu = new PopupMenu(this, view);
+        popupMenu.setOnMenuItemClickListener(this);
+        popupMenu.inflate(R.menu.menukompetensi);
+        popupMenu.show();
+    }
+
+    @Override
+    public boolean onMenuItemClick(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menuutama:
+                startActivity(new Intent(hal11_pengertianmakhlukhidup.this,hal2_menuutama.class));
+                finish();
+            case R.id.menumateribarr:
+                startActivity(new Intent(hal11_pengertianmakhlukhidup.this,hal10_menumateri.class));
+                finish();
+        }
+        return false;
     }
     public boolean onTouchEvent(MotionEvent touchEvent) {
 

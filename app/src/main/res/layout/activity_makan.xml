@@ -18,20 +18,39 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <TextView
-            android:padding="9dip"
-            android:textAlignment="center"
-            android:layout_marginEnd="140dp"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:text="Makan"
-            android:background="@drawable/bgkayu"/>
+        <LinearLayout
 
+            android:id="@+id/atas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:padding="9dip"
+                android:textAlignment="center"
+
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="MAKAN"
+                android:background="@drawable/bgkayu"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/menubar"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_baseline_menu_24"
+                    android:onClick="showPopup" />
+            </RelativeLayout>
+
+        </LinearLayout>
         <TextView
-            android:layout_marginTop="30dp"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="      Makanan dan air merupakan kebutuhan bagi semua makhluk hidup. Makanan berfungsi untuk menghasilkan energi, pertumbuhan dan mengganti sel tubuh yang rusak. Sedangkan air berfungsi sebagai zat pelarut didalam tubuh (Gambar 3.3). "

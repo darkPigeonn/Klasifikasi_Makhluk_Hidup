@@ -17,21 +17,40 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="10dp">
+            <LinearLayout
 
-            <TextView
-                android:padding="9dip"
-                android:textAlignment="center"
-                android:layout_marginEnd="140dp"
+                android:id="@+id/atas"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:text="TUMBUH"
-                android:background="@drawable/bgkayu"/>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:padding="9dip"
+                    android:textAlignment="center"
+
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="TUMBUH"
+                    android:background="@drawable/bgkayu"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/menubar"
+                        android:layout_marginRight="0dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_baseline_menu_24"
+                        android:onClick="showPopup" />
+                </RelativeLayout>
+
+            </LinearLayout>
 
             <TextView
-                android:layout_marginTop="30dp"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Tumbuh merupakan pertambahan ukuran tubuh yang tidak dapat kembali lagi ke ukuran semula. Semua makhluk hidup mengalami pertumbuhan, mulai dari kecil hingga menjadi besar. Bayi yang kecil sewaktu baru lahir, akan tumbuh menjadi remaja dan kemudian menjadi dewasa (Gambar 3.9). Biji yang ditanam akan tumbuh menjadi kecambah dan kemudian menjadi tanaman yang lebih besar (Gambar 3.10). "
