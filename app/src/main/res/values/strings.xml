@@ -1,7 +1,95 @@
 <resources>
     <string name="app_name">Klasifikasi Makhluk Hidup</string>
-    <string name="menu_utama">Menu Utama</string>
-    <string name="menu_kompetensi">Menu Kompetensi</string>
-    <string name="menu_materi">Menu Materi</string>
-    <string name="menu_ciri_ciri">Menu Ciri-Ciri</string>
+    <string name="title_takson_deter">URUTAN TAKSON DAN KUNCI DETERMINASI</string>
+    <string name="content_takson_gbr">Urutan takson makhluk hidup terdapat pada (Gambar 3.18) sebagai berikut: </string>
+    <string name="content_takson_deter">Kunci determinasi (identifikasi) merupakan suatu kunci yang dipergunakan untuk
+        menentukan filum atau divisi, kelas, ordo, famili, genus atau spesies. Dasar yang dipergunakan kunci determinasi
+        ini adalah identifikasi dari makhluk hidup dengan menggunakan kunci dikotom. Hal-hal yang perlu diperhatikan dalam
+        pembuatan kunci determinasi adalah sebagai berikut:
+</string>
+    <string name="deter_1">Kunci harus dikotom</string>
+    <string name="deter_2">Kata pertama dalam tiap pernyataan dalam 1 kuplet harus identik </string>
+    <string name="deter_3">Pilihan atau bagian kuplet harus kontradiktif</string>
+    <string name="deter_4">Hindari pemakaian kisaran yang tumpang tindih </string>
+    <string name="deter_5">Gunakan sifat-sifat yang mudah diamati</string>
+    <string name="deter_6">Pernyataan dari dua kuplet yang berurutan jangan dimulai dengan kata yang sama</string>
+    <string name="deter_7">Setiap kuplet diberi nomor</string>
+    <string name="deter_8">Buat kalimat pertanyaan yang pendek</string>
+    <string name="content_deter">Contoh kunci determinasi : (suplir, lumut, terong, melinjo, jagung dan kacang kedelai)</string>
+    <string name="title_klasifikasi_tumbuhan">KRITERIA KLASIFIKASI TUMBUHAN BERDASARKAN :</string>
+    <string name="content_tumbuhan_1">Organ perkembangbiakannya, apakah dengan spora atau dengan bunga</string>
+    <string name="content_tumbuhan_2">Habitusnya, apakah berupa pohon, perdu atau semak</string>
+    <string name="content_tumbuhan_3">Bentuk dan ukuran daun</string>
+    <string name="content_tumbuhan_4">Cara berkembang biak, apakah dengan seksual (generatif) atau aseksual (vegetatif)</string>
+    <string name="title_klasifikasi_hewan">KRITERIA KLASIFIKASI HEWAN BERDASARKAN :</string>
+    <string name="content_hewan_1">Saluran pencernaan makanan. Hewan tingkat rendah belum mempunyai saluran pencernaan makanan. Sedangkan hewan tingkat tinggi mempunyai lubang mulut, saluran pencernaan dan anus
+</string>
+    <string name="content_hewan_2">Anggota gerak, apakah berkaki dua, empat atau tidak berkaki</string>
+    <string name="title_tumbuhan">TUMBUHAN</string>
+    <string name="title_hewan">HEWAN</string>
+    <string name="content_monera">Kingdom monera merupakan kelompok makhluk hidup bersel satu (uniseluler) yang bersifat prokariotik. Prokariotik artinya inti sel tidak terlindungi oleh selaput inti (karioteka). Umumnya monera berkembang biak dengan cara membelah diri (aseksual) dan konjugasi (seksual). Beberapa jenis monera hidup bersama membentuk koloni atau kelompok. Sebagian besar anggota monera tidak dapat membuat makanan sendiri sehingga bersifat heterotrof. Anggota kingdom monera meliputi, bakteri dan ganggang hijau-biru (Cyanobacteria).</string>
+    <string name="video_monera">Video kingdom monera : https://youtu.be/fFZbP1BvMRc</string>
+    <string name="content_bakteri">Bakteri merupakan makhluk hidup renik yang tersusun atas satu sel. Organisme ini berukuran sangat kecil, panjangnya antara 0,1-100 mikron (1 mikron = 1/1000 milimeter). Karena ukurannya yang sangat kecil maka hanya dapat dilihat menggunakan mikroskop. Bakteri dapat hidup dimana saja, mulai dari daerah tropis hingga daerah kutub. Bakteri memiliki bentuk beraneka ragam, ada yang berbentuk bulat seperti bola (kokus), batang (basilus) dan berbentuk spiral (spirillum) (Gambar 3.19). Contoh dari bakteri yaitu bakteri  Escerichia coli.</string>
+    <string name="content_ganggang">Ganggang hijau-biru merupakan makhluk hidup renik bersel satu. Struktur selnya sama seperti struktur sel bakteri, yaitu bersifat prokariotik. Ganggang hijau-biru mempunyai pigmen fotosintetik didalam sitoplasmanya, yaitu klorofil tipe a. Hal ini memungkinkan ganggang hijau-biru untuk melakukan fotosintesis. Beberapa jenisnya juga ada yang mempunyai pigmen lain, seperti fikoeritrin (merah) dan fikosianin (biru). Ganggang hijau-biru ada yang hidup soliter dan ada pula yang hidup berkoloni. Ganggang hijau-biru dapat ditemukan hampir disemua habitat antara lainair laut, air tawar, bebatuan dan tanah. Beberapa contoh ganggang hijau-biru yaitu Spirulinaa, Anabaena dan Nostoc (Gambar 3.20).</string>
+    <string name="content_protista">Protista berasal dari kata Protos yang berarti pertama. Jadi protista merupakan organisme eukariotik pertama. Kingdom protista memiliki membran inti (eukariotik), bersel tunggal, multiseluler dan uniseluler serta bersifat autotrof. Protista dibedakan menjadi tiga yaitu protista mirip hewan (Protozoa), protista mirip tumbuhan (Alga), dan protista mirip jamur.</string>
+    <string name="video_protista">Video kingdom protista : https://youtu.be/YtimKgXdD7E</string>
+    <string name="content_fungi">Fungi biasa dikenal dengan istilah jamur yang memiliki membran inti, dinding sel, bersifat uniseluler dan multiseluler dan tidak memiliki kloroplas. Dalam kingdom fungi juga dikenal adanya proses simbiosis yang bersifat mutualisme yaitu simbiosis antara ganggang dan jamur yang menghasilkan lumut kerak.  Berdasarkan cara reproduksi, kingdom fungi dibagi menjadi 4 kelompok diantaranya: </string>
+    <string name="video_fungi">Video kingdom fungi : https://youtu.be/Wnx8RErQ9NY</string>
+    <string name="content_plantae">Kingdom plantae dikelompokan menjadi 3 kelompok besar diantaranya yaitu tumbuhan biji, tumbuhan paku serta tumbuhan lumut. </string>
+    <string name="video_plantae">Video kingdom plantae : https://youtu.be/I5YAx42leJY</string>
+    <string name="content_spermatophyta">Tumbuhan biji merupakan jenis tumbuhan yang dapat menghasilkan biji sendiri, memiliki akar, batang, daun serta berkas pembuluh. Tumbuhan biji dikelompokan menjadi 2 kelompok berdasarkan letak bakal bjinya yaitu:</string>
+    <string name="content_gym">Tumbuhan biji terbuka memiliki ciri-ciri letak bakal biji tidak terlindungi oleh buah daun tetapi menempel pada daun buah, berakar tunggang, daunnya seperti jarum, kecil   tebal, alat kelamin jantan dan betina disebut strobilus yang mengandung sporangium. Tumbuhan biji terbuka dikelompokan menjadi 4 divisi diantaranya:</string>
+    <string name="content_gnetop">Gnetophyta, memiliki ciri-ciri batang berkayu, bercabang dan berdaun tunggal, tumbuhan berumah dua, strobilus jantan dan betina tersusun berlingkar dalam bentuk bulir. Benang sari tersusun dalam spiral, jumlahnya banyak dan terdapat di bawah lingkaran bakal biji yang mandul. Strobilus betina mempunyai bakal biji tersusun dalam lingkaran, bakal biji yang fertil dibungkus oleh dua lapis integumen. Kemudian mempunyai strobilus jantan yang tersusun majemuk, daun-daun berhadapan atau berlingkar, dan tidak mempunyai saluran resin. Contohnya: Ephendra (Ephdra sp) dan melinjo (Gnetum gnemon) (Gambar 3.33)</string>
+    <string name="content_ginkgo">Ginkgophyta, memiliki ciri-ciri merupakan pohon yang berukuran tinggi, batang berkayu, bercabang, daun berbentuk kipas. Daun mempunyai tangkai yang panjang, berbentuk kipas dan tulang daun bercabang. Pada musim gugur daun akan meranggas, bijinya pada buahnya mempunyai kulit luar yang berdaging dan kuit dalam yang keras. Contohnya: gingko (Ginkgo biloba) (Gambar 3.34).</string>
+    <string name="content_cyca">Cycadophyta, memiliki ciri-ciri yaitu tanaman ini banyak ditemukan di daerah tropis hingga subtropis.  Kekhasan dari tanaman ini adalah cabangnya yang tidak bercabang dan memiliki daun majemuk (dalam tangkai daun ada banyak daun atau lebih dari satu). Hampir semua anggota tanaman ini berkembang biak dengan dua atau lebih genitalia jantan dan genitalia betina di pohon yang berbeda. Pohon betina membentuk karpel yang menyerupai tangkai dan agak rata, di ujungnya ada lekuk yang mengandung telur. Sementara itu, ada kantong di pohon jantan yang mengandung serbuk sari. Contohnya: pakis haji (Cycas rumphii) (Gambar 3.35).</string>
+    <string name="content_coni">Coniferophyta, memiliki ciri-ciri tumbuhan semak berbentuk kerucut dan seperti jarum umumnya tidak memiliki daun, daunnya asikuler, dalam bentuk pohon, memiliki strobilus berbentuk kerucut. Strobilus pada tumbuhan konifer ada dua, yaitu strobilus jantan dan strobilus betina. Strobilus jantan menghasilkan serbuk sari yang mengandung sperma sedangkan strobilus betina adalah biji strobililus yang mengandung telur. Contohnya: pohon damar (Agathis alba) dan pinus (Pinus merkusii) (Gambar 3.36).</string>
+    <string name="content_angio">Tumbuhan biji tertutup memiliki ciri-ciri yaitu alat perkembangbiakan berupa bunga, akar, batang dan daun sudah dapat dibedakan dengan jelas, susunan tulang daun menyirip, menjari atau sejajar, bakal biji terlindungi didalam daun buah, mengalamai pembuahan ganda. Tumbuhan biji tertutup dibagi menjadi 2 kelompok diantaranya:</string>
+    <string name="content_dikotil">Tumbuhan dikotil memiliki ciri-ciri yaitu berakar
+tunggang, biji berkeping dua, batang bercabang, tulang
+daun menyirip, bagian bunga berjumlah kelipatan 2, 4
+atau 5 serta biji memiliki dua daun tembaga. Tumbuhan
+dikotil terbagi menjadi 3 suku yaitu:</string>
+    <string name="content_monokotil">Tumbuhan monokotil memiliki ciri-ciri berakar serabut, daun berseling, bagian bunga berjumlah kelipatan 3, biji berkeping satu, tulang daun sejajar. Tumbuhan monokotil terbagi menjadi 4 suku yaitu: </string>
+    <string name="content_paku">Tumbuhan paku merupakan jenis tumbuhan yang memiliki ciri-ciri berkembang biak secara kawin dan tak kawin, memiliki akar, batang dan daun sejati serta memiliki sorus yang dibungkus indusium serta tumbuhan paku dapat berbentuk pohon yang biasanya tidak bercabang, semak, epifit, tumbuh merambat, mengapung di air, hidrofit atau berupa terna dengan rimpang yang menjalar di tanah atau humus. Tumbuhan paku digolongkan menjadi 4 divisi diantaranya:</string>
+    <string name="content_lumut">Tumbuhan lumut merupakan spesies yang memiliki ciri-ciri umumnya berukuran tinggi rata-rata kurang lebih 1-2 cm dan yang paling tinggi 20 cm, mengalami pergiliran keturunan generasi sporofit dan generasi gametofit, berkembang biak secara kawin dan tak kawin, membentuk seperti lembaran, bersifat autotrof karena tumbuhan lumut sudah memiliki klorofil, memiliki rhizoid, serta memiliki akar, batang daun yang tidak sejati serta memiliki berkas pembuluh. Lumut dibedakan menjadi 3 jenis golongan (divisi) antara lain:</string>
+    <string name="content_animalia">Kingdom animalia merupakan kumpulan hewan yang memiliki ciri-ciri tidak dapat berfotosintesis, memiliki banyak sel (makhluk hidup multiseluler), memerlukan oksigen, memiliki sel otot untuk rangsangan, reproduksi umumnya seksual, namun beberapa filum juga menggunakan reproduksi aseksual, bergerak secara aktif serta tidak memiliki dinding sel. Berdasarkan tulang belakangnya, kingdom animalia dibedakan menjadi 2 kelompok yaitu:</string>
+    <string name="video_animalia">Video kingdom animalia : https://youtu.be/jZOFpdvtJl8</string>
+    <string name="content_inver">Hewan tidak bertulang belakang dibagi menjadi 8 kelompok yaitu:</string>
+    <string name="content_annel">Ciri-ciri dari hewan annelida yaitu tubuhnya bersegmen dan lunak, tidak bercangkang, sebagian hidup bebas dan sebagiannya ada yang membenamkan diri dalam tanah, memiliki alat gerak berupa parapodia serta tubuhnya beruas-ruas seperti cincin. Contohnya: cacing tanah (Lumbricus terrestris), lintah (Hirudo medicinalis) (Gambar 3.54).</string>
+    <string name="content_verte">Hewan bertulang belakang dibagi menjadi 5 kelompok yaitu:</string>
+    <string name="content_peran">Peranan kingdom makhluk hidup dalam kehidupan terbagi menjadi 2 yaitu keuntungan
+dan kerugian:</string>
+    <string name="content_dafpus_1">Triyono, dkk. 2017. IPA Biologi untuk SMP/MTS Kelas VII. Penerbit Erlangga: Jakarta.
+</string>
+    <string name="content_dafpus_2">Widodo, Wahono. 2016. Buku Guru Ilmu Pengetahuan Alam SMP/MTS Kelas VII. Penerbit Pusta Kurikulum dan Perbukuan, Balitbang, Kemendikbud: Jakarta.</string>
+    <string name="content_info_penulis">Retno Sandi Saputra merupakan
+anak pertama dari pasangan
+Krisbianto dan Maria. Lahir di Nanga
+Tebidah 28 September 1999 dan
+menempuh pendidikan dasar di SDN
+9 Semadai, SMPN 1 Kayan Hulu dan
+SMAN 2 Sintang Kalimantan Barat.
+Laki-laki yang sering dipanggil Sandi
+ini melanjutkan pendidikan S-1 nya di
+Universitas Sanata Dharma
+Yogyakarta dengan Program Studi
+Pendidikan Biologi.</string>
+    <string name="content_info_produk">Untuk memenuhi tugas akhirnya, penyusun mengembangkan sebuah
+produk berupa buku saku android pada materi Klasifikasi Makhluk Hidup
+kelas VII untuk membantu guru dan peserta didik dalam kegiatan
+pembelajaran. Semoga media pembelajaran ini dapat bermanfaat sesuai
+dengan harapan. Pada pembuatan aplikasi penulis bekerjasama dengan
+Atanasius Ivan Noel Rioaji sebagai programer dalam pembuatan aplikasi
+ini.</string>
+    <string name="content_untung_1">Monera : dapat menangkap kandungan nitrogen diudara yang dapat menyubutkan tanah, serta bakteri  Lactobacillus casei bermanfaat untuk pembuatan keju (Gambar 3.64).</string>
+<string name="content_untung_2">Protista : sebagai indikator polusi air (Euglena viridis), Chlorella dan Gelidium dapat dibudidayakan karena mengandung zat gizi tinggi sehingga dapat dimanfaatkan sebagai sumber makanan alternatif (Gambar 3.65).</string>
+<string name="content_untung_3">Fungi : Vsolvariella volvaceae dapat dijadikan sebagai sumber makanan, Saccharomyces cereviciae berperan dalam pembuatan bir, roti maupun alkohol. Penicilliumchrysogenum berperan dalam pembuatan antibiotik penisilin serta Aspergilluswentii berperan dalam pembuatan kecap (Gambar 3.66).</string>
+    <string name="content_untung_4">Plantae : sebagai organisme fotosintesis tumbuhan yang merupakan pemasok oksigen ke lingkungan dan sumber makanan bagi organisme heterotrof, serta jenis lumut Marchantia polymorpha digunakan sebagai obat radang hati (hepatitis) (Gambar 3.67).</string>
+    <string name="content_untung_5">Animalia : sebagai sumber makanan contohnya ayam, serta beberapa jenis Annelida berperan menggemburkan tanah dan membantu menghancurkan sampah-sampah organik (Gambar 3.68). </string>
+    <string name="content_rugi_1">Monera : Mycobacterium tuberculosis penyebab penyakit tuberkolosis (Gambar 3.69).</string>
+    <string name="content_rugi_2">Protista : penyebab penyakit disentri, serta Plasmodium penyebab penyakit malaria dan penyakit tidur yang disebabkan oleh protista mirip hewan (Gambar 3.70),</string>
+    <string name="content_rugi_3">Fungi : Jamur Epidermophyton yang menyebabkan kaki atlet serta microsporum yang menjadi penyebab kurap (Gambar 3.71).</string>
+    <string name="content_rugi_4">Plantae : lumut dapat merusak bangunan (Anthoceros), tanaman hama benalu dapat merusak dan menghambat pertumbuhan tanaman (Gambar 3.72).
+</string>
+    <string name="content_rugi_5">Animalia : cacing pita Taenia saginata dan Taenia solium hidup sebagai parasit didalam usus manusia (Gambar 3.73). </string>
 </resources>

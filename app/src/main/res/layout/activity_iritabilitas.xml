@@ -66,11 +66,10 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="249dp"
+                    android:background="@drawable/gbr_iritabilitas" />
+
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

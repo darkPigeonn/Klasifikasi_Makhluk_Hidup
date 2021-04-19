@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contoh5kindom.spermatophyta"
+    android:background="@drawable/bg_sper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_marginEnd="140dp"
+                android:background="@drawable/btn_lumut"
+                android:padding="9dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:justificationMode="inter_word"
+                android:padding="18dip"
+                android:text="@string/content_spermatophyta"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="276dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="@drawable/biji_terbuka"></ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="279dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/biji_tertutup"></ImageButton>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

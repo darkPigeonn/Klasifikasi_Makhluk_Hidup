@@ -8,11 +8,34 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".PetunjukPenggunaan"></activity>
-        <activity android:name="lumut.lumuthati" />
-        <activity android:name="lumut.lumutdaun" />
-        <activity android:name="lumut.lumuttanduk" />
+        android:theme="@style/Theme.KlasifikasiMakhlukHidup">
+        <activity android:name=".informasi"></activity>
+        <activity android:name=".daftar_pustaka" />
+        <activity android:name=".latihan_soal" />
+        <activity android:name=".kingdom_rugi" />
+        <activity android:name=".kingdom_untung" />
+        <activity android:name=".peranan_kingdom" />
+        <activity android:name=".hewanbertulang_belakang" />
+        <activity android:name=".annelida" />
+        <activity android:name=".hewantakbertulang_belakang" />
+        <activity android:name=".kingdom_animalia" />
+        <activity android:name=".lumut" />
+        <activity android:name=".paku" />
+        <activity android:name=".monokotil" />
+        <activity android:name=".dikotil" />
+        <activity android:name=".angiospermae" />
+        <activity android:name=".coniferophyta" />
+        <activity android:name=".cycadophyta" />
+        <activity android:name=".ginkgophyta" />
+        <activity android:name=".gnetophya" />
+        <activity android:name=".gymnospermae" />
+        <activity android:name=".contoh5kindom.spermatophyta" />
+        <activity android:name=".contoh5kindom.kingdom_plantae" />
+        <activity android:name=".contoh5kindom.kingdom_fungi" />
+        <activity android:name=".contoh5kindom.kingdom_protista" />
+        <activity android:name=".monera_ganggang" />
+        <activity android:name=".monera_bakteri" />
+        <activity android:name=".klasifikasimh.urutan_takson_determinasi" />
         <activity android:name="hewanberulangbelakang.reptilia" />
         <activity android:name="hewanberulangbelakang.pisces" />
         <activity android:name="hewanberulangbelakang.ampibhia" />
@@ -64,13 +87,7 @@
         <activity android:name=".cirimh.bergerak" />
         <activity android:name=".hal10_menumateri" />
         <activity android:name=".cirimh.hal12_ciricirimakhlukhidup" />
-        <activity android:name=".hal11_pengertianmakhlukhidup" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".hal11_pengertianmakhlukhidup" />
         <activity android:name=".hal5_petakonsep" />
         <activity android:name=".hal4_tujuanpembelajaran" />
         <activity android:name=".hal4_indikator" />
@@ -78,10 +95,14 @@
         <activity android:name=".hal4_kompetensiinti" />
         <activity android:name=".hal4_menukompetensi" />
         <activity android:name=".hal2_menuutama" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
