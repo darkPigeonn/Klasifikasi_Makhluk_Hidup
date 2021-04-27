@@ -10,7 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_marginTop="20dp"
@@ -19,26 +30,30 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:textAlignment="center"
-                android:padding="10dp"
-                android:layout_marginEnd="120dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:text="PENGERTIAN KLASIFIKASI MAHKLUK HIDUP"
-                android:background="@drawable/bg_merah"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textColor="@color/white"
+                    android:text="PENGERTIAN KLASIFIKASI MAHKLUK HIDUP"
+                    android:background="@drawable/bg_merah"/>
 
-            <ImageView
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="180dp"
-                android:scaleType="fitXY"
-                android:layout_gravity="center_horizontal"
-                tools:src="@drawable/h24gambar2"/>
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/h24gambar2"></com.zolad.zoominimageview.ZoomInImageView>
+
+
             <TextView
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -46,6 +61,8 @@
                 android:padding="5dp"
                 android:text="Gambar 3.17 : Buah yang dijual disusun berkelompok berdasarkan jenisnya
 Sumber : reference.com"
+                android:fontFamily="@font/aileron"
+                android:textSize="12sp"
                 android:textColor="@color/black"
                 android:background="@color/white"/>
 
@@ -54,9 +71,10 @@ Sumber : reference.com"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
                 android:text="  Klasifikasi merupakan suatu cara yang sistematis dalam mempelajari objek (misalnya makhluk hidup) dengan melihat persamaan dan perbedaan ciri makhluk hidup. Ilmu yang mempelajari tentang klasifikasi makhluk hidup disebut taksonomi. Pelopor taksonomi adalah Carolus Linnaeus. "
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="10dip"
                 android:background="#C9FFFFFF"
                 android:justificationMode="inter_word"/>

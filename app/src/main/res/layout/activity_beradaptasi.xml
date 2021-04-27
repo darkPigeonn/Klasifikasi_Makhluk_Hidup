@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:gravity="center"
             android:padding="10dp">
             <LinearLayout
 
@@ -26,7 +27,7 @@
                 <TextView
                     android:padding="9dip"
                     android:textAlignment="center"
-
+                android:fontFamily="@font/alegreya"
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:textSize="25sp"
@@ -51,20 +52,34 @@
 
 
             <TextView
-
+                android:fontFamily="@font/aileron"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Makhluk hidup umumnya memiliki kemampuan untuk menyesuaikan diri terhadap perubahan lingkungan, agar dapat mempertahankan kelangsungan hidupnya serta melestarikan keturunannya. Kemampuan mahluk hidup untuk menyesuaikan diri terhadap lingkungannya disebut adaptasi. Contohnya hewan bunglon akan menyesuaikan diri (beradaptasi) untuk menyerupai lingkungan sekitar supaya dapat bertahan hidup di lingkungannya (Gambar 3.14). "
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
             <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bunglon"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/h20gambar"
-                android:scaleType="fitXY"
-                android:layout_marginHorizontal="40dp"/>
+                android:fontFamily="@font/aileron"
+                android:text="Gambar 3.14 : Bunglon mengubah warna kulitnya untuk beradaptasi dengan lingkungan sekiar
+Sumber : pxhere.com"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
             </LinearLayout>
 
 

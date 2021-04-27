@@ -10,8 +10,19 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/h74backround">
-
+        android:background="#C7D0D8">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_marginTop="20dp"
@@ -22,32 +33,49 @@
 
             <TextView
                 android:textAlignment="center"
-                android:padding="20dp"
-                android:layout_marginEnd="110dp"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:textSize="25sp"
+                android:layout_width="300dp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:fontFamily="@font/alegreya"
+                android:textSize="19sp"
                 android:text="MOLLUSCA"
-                android:background="@drawable/bg_kuning"/>
+                android:padding="15dip"
+                android:textColor="@color/black"
+                android:paddingBottom="10dip"
+                android:layout_height="60dp"
+                android:background="@drawable/kayucoklat"/>
 
             <TextView
-                android:padding="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="380dp"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="Adapun ciri-ciri dari mullusca bertubuh lunak dan tidak bersegmen, mempunyai ukuran dan tubuh yang bervariasi, hidup di air dan di darat, bersifat hewan heterotrof, berkembangbiak secara seksual, tubuhnya tertutup oleh cangkang yang keras, mempunyai radula (lidah bergigi), tubuhnya terdiri dari kaki muskular, dengan kepala yang berkembang beragam menurut kelasnya. Kaki beradaptasi untuk bertahan di substrat, menggali dan melakukan pergerakan. Contoh dari mollusca antara lain: siput (Helix pomatia) dan cumi-cumi (Mastigoteuthis flammea) (Gambar 3.51). "/>
-
-            <ImageView
+                android:layout_marginTop="20dp"
+                android:padding="10dip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/h74gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"/>
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:textStyle="bold"
+                android:fontFamily="@font/aileron"
+                android:textColor="@color/black"
+                android:text="@string/isimolu"/>
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/molusscagambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="@string/moluteks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
         </LinearLayout>
     </RelativeLayout>
 

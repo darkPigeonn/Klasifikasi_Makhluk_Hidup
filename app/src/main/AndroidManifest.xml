@@ -4,12 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/menuu"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KlasifikasiMakhlukHidup">
-        <activity android:name=".informasi"></activity>
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".Youtube_Anima"></activity>
+        <activity android:name=".Youtube_Protista" />
+        <activity android:name=".YoutubeMonera" />
+        <activity android:name=".diskusi.Diskusi4" />
+        <activity android:name=".YoutubeTakson" />
+        <activity android:name=".diskusi.Diskusi3" />
+        <activity android:name=".Youtube_plantae" />
+        <activity android:name=".Youtube_fungi" />
+        <activity android:name=".Youtube_kindomprotista" />
+        <activity android:name=".diskusi.Diskusi2" />
+        <activity android:name=".diskusi.Diskusi1" />
+        <activity android:name=".PetunjukPenggunaan" />
+        <activity android:name=".Youtube_1" />
+        <activity android:name=".informasi" />
         <activity android:name=".daftar_pustaka" />
         <activity android:name=".latihan_soal" />
         <activity android:name=".kingdom_rugi" />
@@ -36,16 +49,15 @@
         <activity android:name=".monera_ganggang" />
         <activity android:name=".monera_bakteri" />
         <activity android:name=".klasifikasimh.urutan_takson_determinasi" />
-        <activity android:name="hewanberulangbelakang.reptilia" />
-        <activity android:name="hewanberulangbelakang.pisces" />
-        <activity android:name="hewanberulangbelakang.ampibhia" />
-        <activity android:name="hewanberulangbelakang.aves" />
-        <activity android:name="hewanberulangbelakang.mamalia" />
+        <activity android:name=".hewanberulangbelakang.reptilia" />
+        <activity android:name=".hewanberulangbelakang.pisces" />
+        <activity android:name=".hewanberulangbelakang.ampibhia" />
+        <activity android:name=".hewanberulangbelakang.aves" />
+        <activity android:name=".hewanberulangbelakang.mamalia" />
         <activity android:name=".hewantakbertulangbelakang.COELENTERATA" />
         <activity android:name=".hewantakbertulangbelakang.porifera" />
         <activity android:name=".hewantakbertulangbelakang.platyhelminthes" />
         <activity android:name=".hewantakbertulangbelakang.nematoda" />
-        <activity android:name=".hewantakbertulangbelakang.annelid" />
         <activity android:name=".hewantakbertulangbelakang.arthropoda" />
         <activity android:name=".hewantakbertulangbelakang.echinodermata" />
         <activity android:name=".hewantakbertulangbelakang.mollusca" />
@@ -95,14 +107,14 @@
         <activity android:name=".hal4_kompetensiinti" />
         <activity android:name=".hal4_menukompetensi" />
         <activity android:name=".hal2_menuutama" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

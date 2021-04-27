@@ -28,15 +28,15 @@
     <string name="title_tumbuhan">TUMBUHAN</string>
     <string name="title_hewan">HEWAN</string>
     <string name="content_monera">Kingdom monera merupakan kelompok makhluk hidup bersel satu (uniseluler) yang bersifat prokariotik. Prokariotik artinya inti sel tidak terlindungi oleh selaput inti (karioteka). Umumnya monera berkembang biak dengan cara membelah diri (aseksual) dan konjugasi (seksual). Beberapa jenis monera hidup bersama membentuk koloni atau kelompok. Sebagian besar anggota monera tidak dapat membuat makanan sendiri sehingga bersifat heterotrof. Anggota kingdom monera meliputi, bakteri dan ganggang hijau-biru (Cyanobacteria).</string>
-    <string name="video_monera">Video kingdom monera : https://youtu.be/fFZbP1BvMRc</string>
+    <string name="video_monera">Video kingdom monera</string>
     <string name="content_bakteri">Bakteri merupakan makhluk hidup renik yang tersusun atas satu sel. Organisme ini berukuran sangat kecil, panjangnya antara 0,1-100 mikron (1 mikron = 1/1000 milimeter). Karena ukurannya yang sangat kecil maka hanya dapat dilihat menggunakan mikroskop. Bakteri dapat hidup dimana saja, mulai dari daerah tropis hingga daerah kutub. Bakteri memiliki bentuk beraneka ragam, ada yang berbentuk bulat seperti bola (kokus), batang (basilus) dan berbentuk spiral (spirillum) (Gambar 3.19). Contoh dari bakteri yaitu bakteri  Escerichia coli.</string>
     <string name="content_ganggang">Ganggang hijau-biru merupakan makhluk hidup renik bersel satu. Struktur selnya sama seperti struktur sel bakteri, yaitu bersifat prokariotik. Ganggang hijau-biru mempunyai pigmen fotosintetik didalam sitoplasmanya, yaitu klorofil tipe a. Hal ini memungkinkan ganggang hijau-biru untuk melakukan fotosintesis. Beberapa jenisnya juga ada yang mempunyai pigmen lain, seperti fikoeritrin (merah) dan fikosianin (biru). Ganggang hijau-biru ada yang hidup soliter dan ada pula yang hidup berkoloni. Ganggang hijau-biru dapat ditemukan hampir disemua habitat antara lainair laut, air tawar, bebatuan dan tanah. Beberapa contoh ganggang hijau-biru yaitu Spirulinaa, Anabaena dan Nostoc (Gambar 3.20).</string>
     <string name="content_protista">Protista berasal dari kata Protos yang berarti pertama. Jadi protista merupakan organisme eukariotik pertama. Kingdom protista memiliki membran inti (eukariotik), bersel tunggal, multiseluler dan uniseluler serta bersifat autotrof. Protista dibedakan menjadi tiga yaitu protista mirip hewan (Protozoa), protista mirip tumbuhan (Alga), dan protista mirip jamur.</string>
-    <string name="video_protista">Video kingdom protista : https://youtu.be/YtimKgXdD7E</string>
+    <string name="video_protista">Video kingdom protista</string>
     <string name="content_fungi">Fungi biasa dikenal dengan istilah jamur yang memiliki membran inti, dinding sel, bersifat uniseluler dan multiseluler dan tidak memiliki kloroplas. Dalam kingdom fungi juga dikenal adanya proses simbiosis yang bersifat mutualisme yaitu simbiosis antara ganggang dan jamur yang menghasilkan lumut kerak.  Berdasarkan cara reproduksi, kingdom fungi dibagi menjadi 4 kelompok diantaranya: </string>
-    <string name="video_fungi">Video kingdom fungi : https://youtu.be/Wnx8RErQ9NY</string>
+    <string name="video_fungi">Video kingdom fungi</string>
     <string name="content_plantae">Kingdom plantae dikelompokan menjadi 3 kelompok besar diantaranya yaitu tumbuhan biji, tumbuhan paku serta tumbuhan lumut. </string>
-    <string name="video_plantae">Video kingdom plantae : https://youtu.be/I5YAx42leJY</string>
+    <string name="video_plantae">Video kingdom plantae</string>
     <string name="content_spermatophyta">Tumbuhan biji merupakan jenis tumbuhan yang dapat menghasilkan biji sendiri, memiliki akar, batang, daun serta berkas pembuluh. Tumbuhan biji dikelompokan menjadi 2 kelompok berdasarkan letak bakal bjinya yaitu:</string>
     <string name="content_gym">Tumbuhan biji terbuka memiliki ciri-ciri letak bakal biji tidak terlindungi oleh buah daun tetapi menempel pada daun buah, berakar tunggang, daunnya seperti jarum, kecil   tebal, alat kelamin jantan dan betina disebut strobilus yang mengandung sporangium. Tumbuhan biji terbuka dikelompokan menjadi 4 divisi diantaranya:</string>
     <string name="content_gnetop">Gnetophyta, memiliki ciri-ciri batang berkayu, bercabang dan berdaun tunggal, tumbuhan berumah dua, strobilus jantan dan betina tersusun berlingkar dalam bentuk bulir. Benang sari tersusun dalam spiral, jumlahnya banyak dan terdapat di bawah lingkaran bakal biji yang mandul. Strobilus betina mempunyai bakal biji tersusun dalam lingkaran, bakal biji yang fertil dibungkus oleh dua lapis integumen. Kemudian mempunyai strobilus jantan yang tersusun majemuk, daun-daun berhadapan atau berlingkar, dan tidak mempunyai saluran resin. Contohnya: Ephendra (Ephdra sp) dan melinjo (Gnetum gnemon) (Gambar 3.33)</string>
@@ -53,7 +53,7 @@ dikotil terbagi menjadi 3 suku yaitu:</string>
     <string name="content_paku">Tumbuhan paku merupakan jenis tumbuhan yang memiliki ciri-ciri berkembang biak secara kawin dan tak kawin, memiliki akar, batang dan daun sejati serta memiliki sorus yang dibungkus indusium serta tumbuhan paku dapat berbentuk pohon yang biasanya tidak bercabang, semak, epifit, tumbuh merambat, mengapung di air, hidrofit atau berupa terna dengan rimpang yang menjalar di tanah atau humus. Tumbuhan paku digolongkan menjadi 4 divisi diantaranya:</string>
     <string name="content_lumut">Tumbuhan lumut merupakan spesies yang memiliki ciri-ciri umumnya berukuran tinggi rata-rata kurang lebih 1-2 cm dan yang paling tinggi 20 cm, mengalami pergiliran keturunan generasi sporofit dan generasi gametofit, berkembang biak secara kawin dan tak kawin, membentuk seperti lembaran, bersifat autotrof karena tumbuhan lumut sudah memiliki klorofil, memiliki rhizoid, serta memiliki akar, batang daun yang tidak sejati serta memiliki berkas pembuluh. Lumut dibedakan menjadi 3 jenis golongan (divisi) antara lain:</string>
     <string name="content_animalia">Kingdom animalia merupakan kumpulan hewan yang memiliki ciri-ciri tidak dapat berfotosintesis, memiliki banyak sel (makhluk hidup multiseluler), memerlukan oksigen, memiliki sel otot untuk rangsangan, reproduksi umumnya seksual, namun beberapa filum juga menggunakan reproduksi aseksual, bergerak secara aktif serta tidak memiliki dinding sel. Berdasarkan tulang belakangnya, kingdom animalia dibedakan menjadi 2 kelompok yaitu:</string>
-    <string name="video_animalia">Video kingdom animalia : https://youtu.be/jZOFpdvtJl8</string>
+    <string name="video_animalia">Video kingdom animalia</string>
     <string name="content_inver">Hewan tidak bertulang belakang dibagi menjadi 8 kelompok yaitu:</string>
     <string name="content_annel">Ciri-ciri dari hewan annelida yaitu tubuhnya bersegmen dan lunak, tidak bercangkang, sebagian hidup bebas dan sebagiannya ada yang membenamkan diri dalam tanah, memiliki alat gerak berupa parapodia serta tubuhnya beruas-ruas seperti cincin. Contohnya: cacing tanah (Lumbricus terrestris), lintah (Hirudo medicinalis) (Gambar 3.54).</string>
     <string name="content_verte">Hewan bertulang belakang dibagi menjadi 5 kelompok yaitu:</string>
@@ -79,11 +79,11 @@ produk berupa buku saku android pada materi Klasifikasi Makhluk Hidup
 kelas VII untuk membantu guru dan peserta didik dalam kegiatan
 pembelajaran. Semoga media pembelajaran ini dapat bermanfaat sesuai
 dengan harapan. Pada pembuatan aplikasi penulis bekerjasama dengan
-Atanasius Ivan Noel Rioaji sebagai programer dalam pembuatan aplikasi
+Atanasius Ivannoel Rio Aji dan team, sebagai programer dalam pembuatan aplikasi
 ini.</string>
     <string name="content_untung_1">Monera : dapat menangkap kandungan nitrogen diudara yang dapat menyubutkan tanah, serta bakteri  Lactobacillus casei bermanfaat untuk pembuatan keju (Gambar 3.64).</string>
-<string name="content_untung_2">Protista : sebagai indikator polusi air (Euglena viridis), Chlorella dan Gelidium dapat dibudidayakan karena mengandung zat gizi tinggi sehingga dapat dimanfaatkan sebagai sumber makanan alternatif (Gambar 3.65).</string>
-<string name="content_untung_3">Fungi : Vsolvariella volvaceae dapat dijadikan sebagai sumber makanan, Saccharomyces cereviciae berperan dalam pembuatan bir, roti maupun alkohol. Penicilliumchrysogenum berperan dalam pembuatan antibiotik penisilin serta Aspergilluswentii berperan dalam pembuatan kecap (Gambar 3.66).</string>
+    <string name="content_untung_2">Protista : sebagai indikator polusi air (Euglena viridis), Chlorella dan Gelidium dapat dibudidayakan karena mengandung zat gizi tinggi sehingga dapat dimanfaatkan sebagai sumber makanan alternatif (Gambar 3.65).</string>
+    <string name="content_untung_3">Fungi : Vsolvariella volvaceae dapat dijadikan sebagai sumber makanan, Saccharomyces cereviciae berperan dalam pembuatan bir, roti maupun alkohol. Penicilliumchrysogenum berperan dalam pembuatan antibiotik penisilin serta Aspergilluswentii berperan dalam pembuatan kecap (Gambar 3.66).</string>
     <string name="content_untung_4">Plantae : sebagai organisme fotosintesis tumbuhan yang merupakan pemasok oksigen ke lingkungan dan sumber makanan bagi organisme heterotrof, serta jenis lumut Marchantia polymorpha digunakan sebagai obat radang hati (hepatitis) (Gambar 3.67).</string>
     <string name="content_untung_5">Animalia : sebagai sumber makanan contohnya ayam, serta beberapa jenis Annelida berperan menggemburkan tanah dan membantu menghancurkan sampah-sampah organik (Gambar 3.68). </string>
     <string name="content_rugi_1">Monera : Mycobacterium tuberculosis penyebab penyakit tuberkolosis (Gambar 3.69).</string>
@@ -92,4 +92,126 @@ ini.</string>
     <string name="content_rugi_4">Plantae : lumut dapat merusak bangunan (Anthoceros), tanaman hama benalu dapat merusak dan menghambat pertumbuhan tanaman (Gambar 3.72).
 </string>
     <string name="content_rugi_5">Animalia : cacing pita Taenia saginata dan Taenia solium hidup sebagai parasit didalam usus manusia (Gambar 3.73). </string>
+    <string name="menu_materi">Menu Materi</string>
+    <string name="menu_utama">Menu Utama</string>
+    <string name="menu_ciri_ciri">Menu Ciri-Ciri</string>
+    <string name="menu_kompetensi">Menu Kompetensi</string>
+    <string name="materi_klasifikasi_makluk_hidup">Materi Klasifikasi /n Makluk Hidup</string>
+    <string name="materi_klasifikasi_makhluk_hidup">Materi Klasifikasi
+        <br>Makhluk Hidup</br></string>
+    <string name="gambar_3_2_pergerakan_bagian_tumbuhan_pucuk_yang_mencari_cahaya_matahari_sumber_stevenconnelly_com">Gambar 3.2 : Pergerakan bagian tumbuhan (pucuk) yang mencari cahaya (matahari) <br> Sumber : stevenconnelly.com</br></string>
+    <string name="gambar_3_3_makhluk_hidup_manusia_memerlukan_makanan_sumber_gambarkartunbro_blogspot_com">Gambar 3.3 : Makhluk hidup (manusia) memerlukan makanan<br> Sumber : gambarkartunbro.blogspot.com</br></string>
+    <string name="kacang">Suku kacang-kacangan <i>(Papilionaceae)</i>, memiliki ciri-ciri mahkota bunga berbentuk kupu-kupu, buahnya polong sering ditemukan bintil akar serta mahkota bunga berbentuk kupu-kupu. Contohnya: kacang tanah <i>(Arachis hypogaea)</i>, kacang kedelai <i>(Glycine max)</i>, kacang panjang <i>(V. unguiculata)</i> (Gambar3.37).</string>
+    <string name="terung">Suku terung-terungan <i>(Solanaceae)</i>, memiliki ciri-ciri biasanya berupa semak-semak, tumbuhan perdu atau bisa juga pohon.berdaun tunggal atau majemuk, bagian tepi daun berlekuk, bunga berbentuk bintang, terompet. Contohnya tomat <i>(Solanum lycopersicum)</i>, cabai <i>(Capsicum annum L)</i>, ranti <i>(Solanum nigrum)</i>, kentang <i>(Solanum tuberosum L.)</i> dan paprika <i>(Capsicum annuum L.)</i> (Gambar 3.38)</string>
+    <string name="pisangteks">Gambar 3.40 : Pisang ambon
+Sumber : keywordbasket.com</string>
+    <string name="palemteks">Gambar 3.41 : Kelapa sawit
+Sumber : icarclubs.com</string>
+    <string name="bawangteks">Gambar 3.42 : Bawang merah
+Sumber : burgeonimpex.com</string>
+    <string name="paditeks">Gambar 3.43 : Padi
+Sumber : gambaristimewa.blogspot.com</string>
+    <string name="pisanglabel">PISANG-PISANGAN (MUSACEAE)</string>
+    <string name="pinanglabel">PINANG-PINANGAN (PALMAE)</string>
+    <string name="bawanglabel">BAWANG-BAWANGAN (LILIACEAE)</string>
+    <string name="rumputlabel">RUMPUT-RUMPUTAN (GRAMINEAE)</string>
+    <string name="kawatlabel">PAKU KAWAT <br>(LYOPODINAE)</br></string>
+    <string name="telanjanglabel">PAKU TELANJANG <br>(PSILOPHYTINAE)</br></string>
+    <string name="sejatilabel">PAKU SEJATI <br>(FILICINAE)</br></string>
+    <string name="kudalabel">PAKU EKOR KUDA <br>(EQUISETINAE)</br></string>
+    <string name="sejatiteks">Gambar 3.44 : Suplir
+Sumber : wiki.listwy-online.com.pl</string>
+    <string name="kudateks">Gambar 3.47 : Paku ekor kuda
+Sumber : 1millionideas.com</string>
+    <string name="kawatteks">Gambar 3.46 : Paku kawat
+Sumber : lapland-nature.info</string>
+    <string name="telanjangteks">Gambar 3.45 : Psilotum nudum
+Sumber : commons.wikimedia.org</string>
+    <string name="paku_sejati_filicinae">PAKU SEJATI <br>(FILICINAE)</br></string>
+    <string name="paku_sejati_filicinae_memiliki_ciri_ciri_yaitu_daunnya_berukuran_besar_sporangium_terdapat_pada_sporofil_dan_daun_mudanya_menggulung_sorus_berkumpul_pada_ujung_tepi_dan_tersebar_dipermukaan_daun_contohnya_semanggi_marsilea_crenata_suplir_adiantum_gambar_3_44">Paku sejati <i>(Filicinae)</i>, memiliki ciri-ciri yaitu daunnya berukuran besar, sporangium terdapat pada sporofil dan daun mudanya menggulung, sorus berkumpul pada ujung, tepi dan tersebar dipermukaan daun. Contohnya: semanggi <i>(Marsilea crenata)</i>, suplir <i>(Adiantum)</i> (Gambar 3.44).</string>
+    <string name="isikawat">Paku kawat <i>(Lycopodiine)</i>., memiliki ciri-ciri yaitu biasanya berdaun kecil dengan susunan spiral, tubuhnya seperti rambut atau kawat, habitatnya didaerah pegunungan dan sporangiumnya muncul di ketiak daun membentuk strobilus. Contohnya: paku kawat <i>(Lycopodium cernuum)</i> (Gambar 3.46).</string>
+    <string name="paku_kawat_lyopodinae">PAKU KAWAT <br>(LYOPODINAE)</br></string>
+    <string name="kudaisi">Paku ekor kuda <i>(Equisetinae)</i>, memiliki ciri-ciri yaitu daunya tunggal dengan ukuran kecil dan tersusun secara spiral, batangnya berwarna hijau dan berus, batang terdapat dalam tanah, cabang beruas-ruas dan daun fertil menghasilkan spora. Contohnya: paku ekor kuda <i>(Equisetum sylvaticum)</i> (Gambar 3.47).</string>
+    <string name="labeldaun">LUMUT DAUN <br>(BRYOPYHTA)</br></string>
+    <string name="labelhati">LUMUT HATI <br>(HEPATICOPHYTA)</br></string>
+
+    <!--    lumut-->
+    <string name="daunteks">Gambar 3.48 : Polytrichum
+Sumber : ohiomosslichen.org</string>
+    <string name="hatiteks">Gambar 3.49 : Lumut hati
+Sumber : thelawnman.co.uk</string>
+    <string name="tandukteks">Gambar 3.50 : Lumut tanduk
+Sumber : commons.wikimedia.org</string>
+    <string name="isihati">Lumut hati <i>(Hepaticophyta)</i>, memiliki ciri-ciri yaitu bentuk tubuh lumut hati berupa lembaran seperti sebuah hati, talus membentuk seperti akar, batang serta daun, bereproduksi secara seksual dan aseksual, bersifat autrotrof karena dapat melakukan proses fotosintesis, berdaging atau berbentuk lembaran pipih seperti daun. Contohnya: lumut hati <i>(Marchantia)</i> (Gambar 3.49).</string>
+    <string name="isitanduk">Lumut tanduk <i>(Anthocerotophyta)</i>, memiliki ciri-ciri yaitu tubuhnya berbentuk seperti tanduk, habitatnya di daerah yang memiliki kelembaban cukup tinggi, seluruh poros sporangium ini terdiri dari sebuah jaringan atas dan beberapa sel mandul. Contohnya: lumut tanduk <i>(Anthoceros natans)</i> (Gambar 3.50).</string>
+    <string name="isidaun">Lumut daun <i>(Bryophyta)</i>, memiliki ciri-ciri yaitu akarnya berupa rhizoid, fase dominannya adalah fase gametofit, spora terdiri dari 2 lapisan yaitu endospora dan eksospora, habitatnya ditempat lembab, memiliki tubuh pada umumnya tegak, sering membentuk lapisan seperti beludru dan reproduksi vegetatif dengan spora, generatif dengan arkegonium yang menghasilkan ovum dan anteridium yang menghasilkan spermatozoid. Contohnya: lumut hijau <i>(Andreaea petrophila)</i> dan <i>(Polytrichum)</i> (Gambar 3.48).</string>
+
+    <!--    tak bertulang belakang-->
+    <string name="coeleteks">Gambar 3.58 : Anemon
+Sumber : pxhere.com</string>
+    <string name="poriteks">Gambar 3.57 : Spons mandi
+Sumber : commons.wikimedia.org</string>
+    <string name="platyteks">Gambar 3.56 : Cacing pita
+Sumber : biolib.cz</string>
+    <string name="nemateks">Gambar 3.56 : Cacing pita
+Sumber : biolib.cz</string>
+    <string name="anneteks">Gambar 3.54 : Cacing tanah
+Sumber : jooinn.com</string>
+    <string name="artoteks">Gambar 3.53 : Belalang
+Sumber : wallhere.com</string>
+    <string name="echiteks">Gambar 3.52 : Landak laut
+Sumber : commons.wikimedia.org</string>
+    <string name="moluteks">Gambar 3.51 : Cumi-cumi
+Sumber : atb-group.fish</string>
+    <string name="isimolu">Adapun ciri-ciri dari mullusca bertubuh lunak dan tidak bersegmen, mempunyai ukuran dan tubuh yang bervariasi, hidup di air dan di darat, bersifat hewan heterotrof, berkembangbiak secara seksual, tubuhnya tertutup oleh cangkang yang keras, mempunyai radula <i>(lidah bergigi)</i>, tubuhnya terdiri dari kaki muskular, dengan kepala yang berkembang beragam menurut kelasnya. Kaki beradaptasi untuk bertahan di substrat, menggali dan melakukan pergerakan. Contoh dari mollusca antara lain: siput <i>(Helix pomatia)</i> dan cumi-cumi <i>(Mastigoteuthis flammea)</i> (Gambar 3.51).</string>
+    <string name="isiechi">Ciri-ciri dari Echinodermata antara lain: tubuhnya kasar dan berduri serta teridiri dari 3 lapisan dan memiliki rongga tubuh yang disebut dengan tripoblastik. Tubuhnya berbentuk seperti binatang atau seperti bola, hidup dilaut, memiliki kulit tubuh yang terisi zat kitin, bergerak dengan ambulakral yakni kaki tabung dengan lubang-lubang kecil yang berfungsi untuk menghisap. Kemudian perkembangbiakannya secara seksual, pada permukaan tubuh terdiri atas tonjolan-tonjolan yang menyerupai duri. Contohnya yaitu: landak laut <i>(Echinus melo)</i>, bintang laut <i>(Asterias amuneris)</i>, lilia laut <i>(Crinoidea)</i> dan teripang <i>(Holothuria scabra)</i> (Gambar 3.52).</string>
+    <string name="isiartho">Ciri-ciri dari hewan arthropoda adalah hewan berbuku-buku, tubuhnya dibedakan atas kepala, dada dan perut. Tubuhnya terbungkus zat kitin yang keras, memiliki alat indra yang peka terhadap sentuhan dan bau-bauan, memiliki faset, yaitu mata majemuk terdiri dari beribu-ribu mata kecil berbentuk segi enam. Contohnya yaitu: belalang <i>(Dissosterira carolina)</i>, kumbang <i>(Oryctes rhinoceros)</i>, kepiting <i>(Scylla sp)</i>, laba-laba <i>(Araneus diadematus)</i>, kaki seribu <i>(Trigoniulus corallinus)</i> dan caplak <i>(Rhipicephalus sanguineus)</i> (Gambar 3.53).</string>
+    <string name="isiphy">Ciri-ciri hewan platyhelminthes antara lain: memiliki bentuk tubuh pipih, simetris dan tidak bersegmen, memiliki ukuran tubuh mikroskopis, memiliki satu lubang yaitu mulut tanpa dubur, memiliki daya regenerasi yang tinggi dan bersifat hermafodit (dua kelamin). Hidupnya parasit dan ada juga yang hidup bebas, habitatnya di air tawar, air laut, tempat lembab atau dalam organisme lain. Melakukan perkembangbiakan (bereproduksi) secara generatif, Contonya yaitu: cacing rambut getar <i>(Turbellaria)</i>, cacing isap, cacing pita <i>(Taenia saginata)</i> (Gambar 3.56).</string>
+    <string name="isipori">Ciri-ciri dari hewan porifera yaitu mempunyai pori-pori, hewan ini seperti spons. Habitatnya di perairan, warna tubuhnya bermacam-macam seperti merah, kuning dan hijau. Contoh hewan porifera yaitu, <i>Spongilla aspinosa</i>, spons mandi <i>(Euspongia), Poterion, Scypha </i>(Gambar 3.57).</string>
+    <string name="isicoelenera">Coelenterata merupakan hewan berongga, mempunyai tentakel untuk menangkap mangsa. Pada permukaan tentakel terdapat sel beracun yang menyengat. Tubuhnya ada yang berbentuk polip yang menempel pada tempat hidupnya dan ada yang berbentuk medusa yang bergerak aktif melayang-layang di air seperti payung. Contohnya yaitu ubur-ubur <i>(Aurelia aurita)</i>, bunga karang <i>(Petrosia lignosa), obelia sp, hydra americana</i> dan <i>anemon (Stichodactyla gigantae)</i> (Gambar 3.58).</string>
+
+    <!--bertulang-->
+    <string name="piscesteks">Gambar 3.63 : Ikan mas
+Sumber : pngio.com</string>
+    <string name="reptilteks">Gambar 3.62 : Kura-kura daun
+Sumber : pxhere.com</string>
+    <string name="avesteks">Gambar 3.61 : Merpati
+Sumber : jooinn.com</string>
+    <string name="mamaliateks">Gambar 3.59 : Orang utan
+Sumber : jooinn.com</string>
+    <string name="amphibiteks">Gambar 3.60 : Katak
+Sumber : keywordbasket.com</string>
+    <string name="amphibiisi">Kelas amphibia memiliki ciri-ciri yaitu dapat hidup di darat dan di air, penutup pada tubuhnya berupa kulit yang berlendir, hewan berdarah dingin, hewan yang mengalami metamorfosis sempurna, bernapas menggunakan paru-paru dan kulit yang lembab. Contohnya yaitu katak <i>(F. cancrivora)</i>, kodok <i>(B. melanostictus)</i> dan salamander (Gambar 3.60).</string>
+    <string name="reptilisi">Hewan kelas reptilia memiliki ciri-ciri sebagai berikut: tubuhnya terdiri atas kepala, leher, badan dan ekor. Habitat hidupnya di darat dan di air, tubuhnya ditutupi oleh sisik yang tersusun atas zat tanduk, bernapas dengan paru-paru, berkembangbiak dengan cara bertelur. Contohnya buaya <i>(Crocodylus porosus)</i>, kura-kura daun <i>(Cyclemys dentata)</i>, kadal <i>(Eutropis multifasciata)</i>, penyu, ular (Gambar 3.62).</string>
+    <string name="avesisi">Ciri-ciri hewan kelas aves yaitu tubuhnya ditutupi oleh bulu, hampir semua aves memiliki sayap, tidak memiliki gigi, tetapi memiliki sayap untuk makan, hewan berdarah panas. Contohnya yaitu angsa <i>(Cygnus olor)</i>, burung unta <i>(Struthio camelus)</i>, elang <i>(N. baterlsi)</i>, merpati <i>(Columba livia)</i> (Gambar 3.61).</string>
+    <string name="mamaliaisi">Ciri-ciri utama untuk hewan mammalia ialah pada umunya hidup di daratan, akan tetapi ada pula yang hidup di air seperti ikan paus dan lumba-lumba. Selain itu hewan mammalia memliki kelenjar susu, memiliki rambut yang menutupi tubuhnya, bernapas dengan paru-paru, dan suhu tubuh pada mammalia umumnya diatur oleh hipotalamus, berdarah panas. Contoh hewan mammalia yaitu lumba-lumba <i>(Tursiops truncates)</i>, paus <i>(Rhincodon typus)</i>, kanguru <i>(Macropus giganteus)</i>, kelelawar <i>(Chiroptera)</i>, gajah <i>(Elephas maximus)</i>, singa <i>(Phantera Leo)</i> dan orang utan <i>(Pongo pygmaeus)</i> (Gambar 3.59). </string>
+    <string name="piscesisi">Adapun ciri-ciri hewan yang termasuk kedalam kelas pisces adalah tubuhnya terdiri dari kepala, badan dan ekor. Tubuh ditutupi oleh kulit yang umumnya bersisik dan berlendir. Bernapas dengan menggunakan insang, berdarah dingin atau suhu tubuh yang dipengaruhi oleh suhu lingkungan dan habitat hidupnya di air. Contohnya yaitu ikan mas (Cyprinus carpio), ikan mujair (O. mossambicus), ikan lele (Clarias batrachus), ikan cupang (B. splendens) (Gambar 3.63).</string>
+
+
+    <!--    keunutngan kerugian-->
+    <string name="keuntungan1">Gambar 3.64 : Lactobacillus casei
+Sumber : hardreboot.net</string>
+    <string name="keuntungan2">Gambar 3.65 : Chlorella
+Sumber : shop.ora.organic</string>
+    <string name="keuntungan3">Gambar 3.66 : Vsolvariella volvaceae
+Sumber : innspubnet.wordpress.com</string>
+    <string name="keuntungan4">Gambar 3.67 : Marchantia polymorpha
+Sumber : commons.wikimedia.org</string>
+    <string name="keuntungan5">Gambar 3.68 : Ayam
+Sumber : cemanifarms.com</string>
+
+    <string name="kerugian1">Gambar 3.69 : Mycobacterium tuberculosis
+Sumber : charismaticplanet.com</string>
+    <string name="kerugian2">Gambar 3.70 : Plasmodium
+Sumber : En.wikipedia.org</string>
+    <string name="kerugian3">Gambar 3.71 : Microsporum
+Sumber : thesprucepets.com</string>
+    <string name="kerugian4">Gambar 3.72 : Anthoceros
+Sumber : mmonscommons.wikimedia.org</string>
+    <string name="kerugian5">Gambar 3.72 : Anthoceros
+Sumber : mmonscommons.wikimedia.org</string>
+    <string name="bijibukaa">Menu Tumbuhan Biji<br>Terbuka</br></string>
+
+    <string name="bijitutupp">Menu Tumbuhan Biji<br>Tertutup</br></string>
+
 </resources>

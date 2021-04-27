@@ -28,49 +28,60 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:src="@drawable/h4judulkompetensi"/>
-
+                android:layout_height="100dp"
+                android:background="@drawable/bgjudull"
+                android:text="KOMPETENSI"
+                android:fontFamily="@font/alegreya"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="28dp"
+                android:padding="23dip"/>
             <LinearLayout
                 android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center_horizontal">
+                android:gravity="center_horizontal">
+
+
 
                 <ImageView
-                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_kompetensiInti"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:scaleType="fitXY"
-                    android:background="@drawable/h4komponeninti"/>
-                <ImageView
+                    android:layout_width="331dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kinti" />
+                <ImageView
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_kompetensiDasar"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:scaleType="fitXY"
-                    android:background="@drawable/h4kompetensidasar"/>
-                <ImageView
-                    android:id="@+id/btn_indikator"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:scaleType="fitXY"
-                    android:background="@drawable/h4indikator"/>
-                <ImageView
-                    android:id="@+id/btn_tujuanpembelajaran"
+                    android:layout_width="331dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
                     android:scaleType="fitXY"
-                    android:background="@drawable/h4tujuanpembelejaran"/>
+                    android:src="@drawable/dasar" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_indikator"
+                    android:layout_width="331dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/indi" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_tujuanpembelajaran"
+                    android:layout_width="331dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tuju" />
 
             </LinearLayout>
         </LinearLayout>

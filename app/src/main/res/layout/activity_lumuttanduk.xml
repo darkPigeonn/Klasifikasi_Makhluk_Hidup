@@ -4,12 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lumut.lumuttanduk">
+    tools:context=".Lumut2.lumuttanduk">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/h74backround">
+        android:background="#C7D0D8">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -17,34 +31,52 @@
             android:orientation="vertical"
             android:padding="10dp">
 
+
             <TextView
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="110dp"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:textSize="18sp"
+                android:textSize="19sp"
+                android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:background="@drawable/bgijoijo"
                 android:text="LUMUT TANDUK
-(ANTHOCEROTOPHYTA)"
-                android:background="@drawable/bghijau"/>
+(ANTHOCEROTOPHYTA)" />
             <TextView
                 android:padding="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:textSize="19sp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/aileron"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Lumut tanduk (Anthocerotophyta), memiliki ciri-ciri yaitu tubuhnya berbentuk seperti tanduk, habitatnya di daerah yang memiliki kelembaban cukup tinggi, seluruh poros sporangium ini terdiri dari sebuah jaringan atas dan beberapa sel mandul. Contohnya: lumut tanduk (Anthoceros natans)  (Gambar 3.50)."/>
+                android:text="@string/isitanduk"/>
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:src="@drawable/h71gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"/>
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/tandukgambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="@string/tandukteks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
         </LinearLayout>
     </RelativeLayout>

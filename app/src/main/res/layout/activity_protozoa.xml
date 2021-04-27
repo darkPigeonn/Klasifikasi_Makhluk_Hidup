@@ -9,8 +9,20 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/h38backround">
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
 
     <LinearLayout
         android:layout_marginTop="20dp"
@@ -23,83 +35,107 @@
             android:padding="10dp"
             android:layout_marginEnd="110dp"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/alegreya"
             android:textStyle="bold"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:text="PROTISTA MIRIP HEWAN
 (PROTOZOA)"
             android:background="@drawable/bg_kuning"/>
-        <TextView
+
+
+        <ScrollView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="Berdasarkan alat geraknya, protozoa dibagi menjadi 4, yaitu:
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/aileron"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Berdasarkan alat geraknya, protozoa dibagi menjadi 4, yaitu:
 -Hewan berkaki semu (Rhizopoda), bergerak dengan kaki semu (Pseudopodia). Contohnya Amoeba proteus, Entamoeba coli (Gambar 3.21)."/>
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="90dp"
-            android:layout_marginEnd="130dp"
-            android:src="@drawable/h38gambaer1"
-            android:scaleType="fitXY"/>
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginEnd="130dp"
+                    android:src="@drawable/h38gambaer1"
+                    android:scaleType="fitXY"/>
 
-        <TextView
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="-Hewan berbulu cambuk (Flagellata), bergerak dengan bulu cambuk (Glagela). Contohnya: Euglena viridis, Trypanosoma gambiense (Gambar 3.22). "/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/aileron"
+                    android:textStyle="bold"
 
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="90dp"
-            android:layout_marginEnd="130dp"
-            android:src="@drawable/h38gambar2"
-            android:scaleType="fitXY"/>
-
-        <TextView
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="-Hewan berbulu getar (Ciliata), bergerak dengan bulu getar (Silia). Contohnya: Paramecium sp dan Coleps (Gambar 3.23)."/>
+                    android:textColor="@color/white"
+                    android:text="-Hewan berbulu cambuk (Flagellata), bergerak dengan bulu cambuk (Glagela). Contohnya: Euglena viridis, Trypanosoma gambiense (Gambar 3.22). "/>
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="90dp"
-            android:layout_marginEnd="130dp"
-            android:src="@drawable/h38gamabar3"
-            android:scaleType="fitXY"/>
-        <TextView
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="-Hewan berspora (Sporozoa), tidak memiliki alat gerak, berkembangbiak dengan membentuk spora. Contohnya: Plasmodium sp (Gambar 3.24)"/>
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginEnd="130dp"
+                    android:src="@drawable/h38gambar2"
+                    android:scaleType="fitXY"/>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="90dp"
-            android:layout_marginEnd="130dp"
-            android:src="@drawable/h38gambaer1"
-            android:scaleType="fitXY"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/aileron"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/white"
+                    android:text="-Hewan berbulu getar (Ciliata), bergerak dengan bulu getar (Silia). Contohnya: Paramecium sp dan Coleps (Gambar 3.23)."/>
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginEnd="130dp"
+                    android:src="@drawable/h38gamabar3"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/aileron"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="-Hewan berspora (Sporozoa), tidak memiliki alat gerak, berkembangbiak dengan membentuk spora. Contohnya: Plasmodium sp (Gambar 3.24)"/>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginEnd="130dp"
+                    android:src="@drawable/h38gambaer1"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
 
     </LinearLayout>
 

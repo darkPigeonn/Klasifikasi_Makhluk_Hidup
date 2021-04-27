@@ -10,7 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -27,57 +38,159 @@
             <ScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:padding="5dp"
+                        android:layout_width="190dp"
+                        android:layout_height="172dp"
+                        android:background="@drawable/kerugian1"></com.zolad.zoominimageview.ZoomInImageView>
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/kerugian2"></com.zolad.zoominimageview.ZoomInImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="@string/kerugian1"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="@string/kerugian2"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:padding="5dp"
+                        android:layout_width="190dp"
+                        android:layout_height="172dp"
+                        android:background="@drawable/kerugian3"></com.zolad.zoominimageview.ZoomInImageView>
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/kerugian4"></com.zolad.zoominimageview.ZoomInImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="@string/kerugian3"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="@string/kerugian4"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                </LinearLayout>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="190dp"
+                    android:layout_height="172dp"
+                    android:background="@drawable/kerugian5"></com.zolad.zoominimageview.ZoomInImageView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aileron"
+                    android:text="@string/kerugian5"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@color/white"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="190dp"
-                            android:layout_height="172dp"
-                            android:background="@drawable/rugi_1"></ImageView>
-                        <ImageView
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/rugi_2"></ImageView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="20dp">
-                        <ImageView
-                            android:layout_width="190dp"
-                            android:layout_height="172dp"
-                            android:background="@drawable/rugi_3"></ImageView>
-                        <ImageView
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/aileron"/>
+                        <TextView
+                            android:padding="2dip"
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/rugi_4"></ImageView>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="90dp">
-                        <ImageView
-                            android:layout_width="190dp"
-                            android:layout_height="172dp"
-                            android:background="@drawable/rugi_5"></ImageView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_marginTop="30dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:justificationMode="inter_word"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/aileron"
+                            android:text="@string/content_rugi_1"/>
+                    </TableRow>
                         <TableRow
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -86,33 +199,16 @@
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:textColor="@color/white"
-                                android:textSize="19sp"/>
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"/>
                             <TextView
                                 android:padding="2dip"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
                                 android:justificationMode="inter_word"
-                                android:textSize="19sp"
-                                android:text="@string/content_rugi_1"/>
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="-"
-                                android:textColor="@color/white"
-                                android:textSize="19sp"/>
-                            <TextView
-                                android:padding="2dip"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textColor="@color/white"
-                                android:justificationMode="inter_word"
-                                android:textSize="19sp"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"
                                 android:text="@string/content_rugi_2"/>
                         </TableRow>
                         <TableRow
@@ -123,14 +219,16 @@
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:textColor="@color/white"
-                                android:textSize="19sp"/>
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"/>
                             <TextView
                                 android:padding="2dip"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
                                 android:justificationMode="inter_word"
-                                android:textSize="19sp"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"
                                 android:text="@string/content_rugi_3"/>
                         </TableRow>
                         <TableRow
@@ -141,14 +239,16 @@
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:textColor="@color/white"
-                                android:textSize="19sp"/>
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"/>
                             <TextView
                                 android:padding="2dip"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
                                 android:justificationMode="inter_word"
-                                android:textSize="19sp"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"
                                 android:text="@string/content_rugi_4"/>
                         </TableRow>
                         <TableRow
@@ -159,14 +259,16 @@
                                 android:layout_height="wrap_content"
                                 android:text="-"
                                 android:textColor="@color/white"
-                                android:textSize="19sp"/>
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"/>
                             <TextView
                                 android:padding="2dip"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
                                 android:justificationMode="inter_word"
-                                android:textSize="19sp"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/aileron"
                                 android:text="@string/content_rugi_5"/>
                         </TableRow>
                     </LinearLayout>

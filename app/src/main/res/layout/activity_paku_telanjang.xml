@@ -13,13 +13,25 @@
         android:layout_height="match_parent">
 
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="10dp">
-
             <TextView
                 android:textAlignment="center"
                 android:padding="10dp"
@@ -27,6 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="19sp"
+                android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="PAKU TELANJANG
@@ -35,20 +48,35 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="388dp"
-                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/aileron"
                 android:text="Paku telanjang (Psilophytinae), merupakan salah satu jenis tumbuhan paku yang hampir punah. Tumbuhan ini hidup di zaman purba dan sekarang ditemukan dalam bentuk fosil. Daunnya kecil, terkadang tidak berdaun. Contohnya: Psilotum (Psilotum nudum) (Gambar 3.45)."
                 android:textColor="@color/black"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"/>
-            <ImageView
-                android:layout_width="match_parent"
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/telanjanggambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/h65gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="40dp"
-                android:layout_marginEnd="40dp"/>
+                android:fontFamily="@font/aileron"
+                android:text="@string/telanjangteks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
+
 
 
 

@@ -22,7 +22,7 @@ public class Perbedaan_MakhlukHidup extends AppCompatActivity implements PopupMe
     public void showPopup(View view) {
         PopupMenu popupMenu = new PopupMenu(this, view);
         popupMenu.setOnMenuItemClickListener(this);
-        popupMenu.inflate(R.menu.menukompetensi);
+        popupMenu.inflate(R.menu.menumateri);
         popupMenu.show();
     }
 

@@ -22,7 +22,7 @@ public class hal11_pengertianmakhlukhidup extends AppCompatActivity implements P
     public void showPopup(View view) {
         PopupMenu popupMenu = new PopupMenu(this, view);
         popupMenu.setOnMenuItemClickListener(this);
-        popupMenu.inflate(R.menu.menukompetensi);
+        popupMenu.inflate(R.menu.menumateri);
         popupMenu.show();
     }
 

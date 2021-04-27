@@ -18,18 +18,37 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:textAlignment="center"
-                android:id="@+id/ln1"
-                android:padding="10dp"
-                android:layout_marginEnd="140dp"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:text="Ciri-Ciri makhluk hidup dan tak hidup "
-                android:background="@drawable/rectangle_rounded"/>
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/ln1"
+                    android:padding="10dp"
+                    android:fontFamily="@font/alegreya"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Ciri-Ciri makhluk hidup dan tak hidup "
+                    android:background="@drawable/rectangle_rounded"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/menubar"
+                        android:layout_marginRight="0dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_baseline_menu_24"
+                        android:onClick="showPopup" />
+                </RelativeLayout>
+            </LinearLayout>
+
 
             <TextView
                 android:layout_marginTop="30dp"
@@ -38,15 +57,142 @@
                 android:layout_height="wrap_content"
                 android:text=" Ciri-ciri makhluk tak hidup diantaranya tidak dapat bergerak, tidak mengadakan metabolisme, dan tidak mempertahankan jenisnya serta tidak ada tanggapan terhadap rangsangan. Sedangkan ciri makhluk hidup dibagi menjadi 8 yaitu bergerak, makan, peka terhadap rangsangan, bernapas, tumbuh, mengeluarkan zat sisa (ekskresi), berkembang biak dan beradaptasi."
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/ln3"
-                android:background="@drawable/gbr_ciri"/>
+                android:orientation="vertical"
+                android:background="@drawable/pohon">
+
+                <TextView
+                    android:id="@+id/btnBeradaptasi"
+                    android:padding="9dip"
+                    android:textAlignment="center"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="BERADAPTASI"
+                    android:background="@drawable/bgkayu"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnEkskresi"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="EKSKRESI"
+                        android:background="@drawable/bgkayu"/>
+
+                    <TextView
+                        android:id="@+id/btnIritabilitas"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="IRITABILITAS"
+                        android:background="@drawable/bgkayu"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnBernapas"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="BERNAPAS"
+                        android:background="@drawable/bgkayu"/>
+
+                    <TextView
+                        android:id="@+id/btnBerkembangBiak"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="BERKEMBANG BIAK"
+                        android:background="@drawable/bgkayu"/>
+                </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/btnBergerak"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="BERGERAK"
+                        android:background="@drawable/bgkayu"/>
+
+                    <TextView
+                        android:id="@+id/btnTumbuh"
+                        android:padding="9dip"
+                        android:textAlignment="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="TUMBUH"
+                        android:background="@drawable/bgkayu"/>
+                <TextView
+                    android:id="@+id/btnMakan"
+                    android:padding="9dip"
+                    android:textAlignment="center"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="MAKAN"
+                    android:background="@drawable/bgkayu"/>
+
+
+
+            </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
 

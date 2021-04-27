@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,33 +30,49 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="233dp"
-                android:layout_height="73dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/btn_cyca"
-                android:padding="9dip" />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="CYCADOPHYTA"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/alegreya"
+                android:padding="15dip"
+                android:textColor="@color/black"
+                android:background="@drawable/bgbiruspiral"
+                android:layout_marginTop="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:fontFamily="@font/aileron"
                 android:justificationMode="inter_word"
                 android:padding="18dip"
                 android:text="@string/content_cyca"
                 android:textColor="@color/black"
-                android:textSize="19sp" />
+                android:textSize="16sp" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/cycagambar"></ImageView>
 
-                <ImageView
-                    android:layout_width="350dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="30dp"
-                    android:background="@drawable/gbr_cyca"></ImageView>
-            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="Gambar 3.35 : Pakis haji
+Sumber : commons.wikimedia.org"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
 
         </LinearLayout>

@@ -12,7 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_marginTop="20dp"
@@ -24,6 +35,7 @@
             <TextView
                 android:textAlignment="center"
                 android:padding="10dp"
+                android:fontFamily="@font/alegreya"
                 android:layout_marginEnd="140dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,23 +48,36 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="361dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paku ekor kuda (Equisetinae), memiliki ciri-ciri yaitu daunya tunggal dengan ukuran kecil dan tersusun secara spiral, batangnya berwarna hijau dan berus, batang terdapat dalam tanah, cabang beruas-ruas dan daun fertil menghasilkan spora. Contohnya: paku ekor kuda (Equisetum sylvaticum) (Gambar 3.47)."
+                android:text="@string/kudaisi"
                 android:textColor="@color/black"
-                android:textSize="25sp"
+                android:textSize="16sp"
+                android:fontFamily="@font/aileron"
                 android:paddingTop="10dp"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/h67gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:padding="10dp"/>
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/kudagambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="@string/kudateks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
 
 

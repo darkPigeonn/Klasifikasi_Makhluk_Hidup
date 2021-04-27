@@ -26,7 +26,7 @@
                 <TextView
                     android:padding="9dip"
                     android:textAlignment="center"
-
+                    android:fontFamily="@font/alegreya"
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:textSize="25sp"
@@ -48,35 +48,104 @@
                 </RelativeLayout>
 
             </LinearLayout>
-            <TextView
 
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="  Bernapas (respirasi) merupakan proses mengambil oksigen dari lingkungan dan mengeluarkan gas karbon dioksida. Contohnya manusia bernapas dengan paru-paru (Gambar 3.6). Hewan air bernapas dengan insang contohnya ikan mas (Gambar 3.7) serta tumbuhan bernapas mengambil oksigen melalui lubang kecil pada daun yang disebut stomata (Gambar 3.8). "
-                android:textColor="@color/black"
-                android:textSize="19sp"
-                android:padding="18dip"
-                android:justificationMode="inter_word"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/h16gambar"
-                android:scaleType="fitXY"
-                android:layout_marginVertical="30dp"/>
+                android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            </LinearLayout>
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Bernapas (respirasi) merupakan proses mengambil oksigen dari lingkungan dan mengeluarkan gas karbon dioksida. Contohnya manusia bernapas dengan paru-paru (Gambar 3.6). Hewan air bernapas dengan insang contohnya ikan mas (Gambar 3.7) serta tumbuhan bernapas mengambil oksigen melalui lubang kecil pada daun yang disebut stomata (Gambar 3.8). "
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:padding="18dip"
+                        android:justificationMode="inter_word"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.zolad.zoominimageview.ZoomInImageView
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bernafas1"/>
+                        <com.zolad.zoominimageview.ZoomInImageView
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bernapas2"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:padding="10dp"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/aileron"
+                            android:text="Gambar 3.6 : Manusia bernapas dengan paru-paru
+Sumber : greelane.com "
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:padding="10dp"
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/aileron"
+                            android:text="Gambar 3.7 : Ikan mas bernapas dengan insang
+Sumber : en.wikipedia.org"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:background="@color/white"/>
+                    </LinearLayout>
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bernapas3"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="Gambar 3.8 : Stomata pada daun
+Sumber : uibk.ac.at"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
         </LinearLayout>
     </RelativeLayout>
 

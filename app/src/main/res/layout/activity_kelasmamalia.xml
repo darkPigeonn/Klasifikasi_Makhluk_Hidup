@@ -4,12 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hewanberulangbelakang.mamalia">
+    tools:context=".hewanberulangbelakang.mamalia">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/h74backround">
+        android:background="#C7D0D8">
+         <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -19,30 +32,47 @@
 
             <TextView
                 android:textAlignment="center"
-                android:padding="20dp"
-                android:layout_marginEnd="110dp"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:textSize="25sp"
+                android:layout_width="300dp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:fontFamily="@font/alegreya"
+                android:textSize="19sp"
                 android:text="KELAS MAMMALIA"
-                android:background="@drawable/bg_merah"/>
+                android:padding="10dip"
+                android:textColor="@color/white"
+                android:paddingBottom="10dip"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_kayu_merah"/>
             <TextView
-                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dip"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:textSize="16sp"
+                android:fontFamily="@font/aileron"
+                android:justificationMode="inter_word"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="Ciri-ciri utama untuk hewan mammalia ialah pada umunya hidup di daratan, akan tetapi ada pula yang hidup di air seperti ikan paus dan lumba-lumba. Selain itu hewan mammalia memliki kelenjar susu, memiliki rambut yang menutupi tubuhnya, bernapas dengan paru-paru, dan suhu tubuh pada mammalia umumnya diatur oleh hipotalamus, berdarah panas. Contoh hewan mammalia yaitu lumba-lumba (Tursiops truncates), paus (Rhincodon typus), kanguru (Macropus giganteus), kelelawar (Chiroptera), gajah (Elephas maximus), singa (Phantera Leo) dan orang utan (Pongo pygmaeus) (Gambar 3.59). "/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:src="@drawable/h83gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"/>
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/mamaliagambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="@string/mamaliateks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
         </LinearLayout>
     </RelativeLayout>

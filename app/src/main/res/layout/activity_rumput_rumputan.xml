@@ -13,13 +13,25 @@
         android:layout_height="match_parent">
 
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
+
         <LinearLayout
-            android:layout_marginTop="20dp"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="10dp">
-
             <TextView
                 android:textAlignment="center"
                 android:padding="10dp"
@@ -27,6 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="19sp"
+                android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="RUMPUT - RUMPUTAN
@@ -35,20 +48,34 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="380dp"
-                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/aileron"
                 android:text="Rumput-rumputan (Gramineae), ciri-cirinya memiliki daun berbentuk pita, tulang daun sejajar dan melekat langsung pada batang, batang sedikit berongga, berakar serabut, berbentuk bulir, penyerbukan dibantu oleh angin. Contohnya gandum (Triticum aestivum), tebu (Saccharum officinarum L.), bambu betung (D. asper) dan  padi (Oryza sativa) (Gambar 3.43)."
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"/>
-            <ImageView
-                android:layout_width="match_parent"
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/padigambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/padi"
-                android:scaleType="fitXY"
-                android:layout_marginStart="40dp"
-                android:layout_marginEnd="40dp"/>
+                android:fontFamily="@font/aileron"
+                android:text="@string/paditeks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
 
 

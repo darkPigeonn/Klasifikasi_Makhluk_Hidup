@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,12 +30,192 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="310dp"
-                android:layout_height="76dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/title_latian"
-                android:padding="9dip" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/alegreya"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="LATIHAN SOAL"
+                android:background="@drawable/bg_hitam"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:id="@+id/btnsejati"
+                android:layout_width="276dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya"
+                android:textSize="19sp"
+                android:text="PETUNJUK PENGERJAAN"
+                android:paddingBottom="10dip"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgoranye"></TextView>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1."
+                        android:padding="5dip"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="5dip"
+                        android:text="Masukan Nama Lengkap, Kelas dan Kode (*Kode diberikan oleh guru)."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2."
+                        android:padding="5dip"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="5dip"
+                        android:text="Jawablah dengan mengklik (centang) kotak jawaban pada salah satu kotak pilihan jawaban A/B/C/D yang dianggap menurut anda benar."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3."
+                        android:padding="5dip"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="5dip"
+                        android:text="Anda tidak bisa lanjut ke soal berikutnya sebelum menjawab (centang) soal sekarang."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4."
+                        android:padding="5dip"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="5dip"
+                        android:text="Klik tombol 'Mulai' untuk memulai mengerjakan soal."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5."
+                        android:padding="5dip"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="5dip"
+                        android:text="Selamat mengerjakan"
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/liksoal"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="MULAI"
+                android:fontFamily="@font/alegreya"
+                android:textSize="19sp"
+                android:background="@drawable/bg_merah"/>
         </LinearLayout>
 
     </RelativeLayout>

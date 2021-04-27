@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+         <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,12 +30,18 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="299dp"
-                android:layout_height="91dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/btn_monokotil"
-                android:padding="9dip" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="TUMBUHAN BIJI BERKEPING SATU (MONOKOTIL)"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:fontFamily="@font/alegreya"
+                android:padding="15dip"
+                android:textColor="@color/black"
+                android:background="@drawable/bgbiruspiral"
+                android:layout_marginTop="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -31,63 +49,70 @@
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="18dip"
+                android:fontFamily="@font/aileron"
                 android:text="@string/content_monokotil"
                 android:textColor="@color/black"
-                android:textSize="19sp" />
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:orientation="horizontal">
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <ImageButton
-                    android:layout_width="252dp"
-                    android:layout_height="88dp"
-                    android:layout_marginLeft="70dp"
-                    android:background="@drawable/btn_pisang"></ImageButton>
-            </LinearLayout>
+                <Button
+                    android:id="@+id/btnpisang"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:padding="10dip"
+                    android:text="@string/pisanglabel"
+                    android:background="@drawable/bg_merahmuda"></Button>
 
-            <LinearLayout
-                android:layout_width="393dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnpinang"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:padding="10dip"
+                    android:text="@string/pinanglabel"
+                    android:background="@drawable/bg_merahmuda"></Button>
 
-                <ImageButton
-                    android:layout_width="254dp"
-                    android:layout_height="83dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/btn_pinang"></ImageButton>
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="393dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnbawang"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:padding="10dip"
+                    android:text="@string/bawanglabel"
+                    android:background="@drawable/bg_merahmuda"></Button>
 
-                <ImageButton
-                    android:layout_width="254dp"
-                    android:layout_height="83dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/btn_bawang"></ImageButton>
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="393dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:layout_width="254dp"
-                    android:layout_height="83dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/btn_rumput"></ImageButton>
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnrumput"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:padding="10dip"
+                    android:text="@string/rumputlabel"
+                    android:background="@drawable/bg_merahmuda"></Button>
             </LinearLayout>
         </LinearLayout>
 

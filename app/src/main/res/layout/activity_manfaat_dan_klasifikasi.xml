@@ -19,20 +19,40 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:textAlignment="center"
-                android:padding="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:text="MANFAAT DAN TUJUAN KLASIFIKASI MAKHLUK HIDUP"
-                android:background="@drawable/bg_merah"/>
 
             <LinearLayout
-                android:layout_marginTop="10dp"
+
+                android:id="@+id/atas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/alegreya"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="MANFAAT DAN TUJUAN KLASIFIKASI MAKHLUK HIDUP"
+                    android:background="@drawable/bg_merah"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/menubar"
+                        android:layout_marginRight="0dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_baseline_menu_24"
+                        android:onClick="showPopup" />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -52,6 +72,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/aileron"
                         android:justificationMode="inter_word"
                         android:text="Manfaat klasifikasi makhluk hidup adalah memudahkan dalam mempelajari makhluk hidup yang sangat beraneka ragam. Serta Untuk melihat hubungan kekerabatan antar makhluk hidup yang satu dengan yang lain dan membantu penelusuran asal usul suatu organisme."/>
                 </TableRow>
@@ -71,6 +93,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"
                         android:justificationMode="inter_word"
                         android:text="Tujuan klasifikasi makhluk hidup adalah untuk membuat proses pengkajian menjadi lebih mudah dan lebih sederhana, membantu proses identifikasi, mengetahui hubungan antar organisme. Pengelompokan makhluk hidup dapat berdasarkan misalnya; habitat, jenis makanan, waktu mencari makan, penutup tubuhnya, jumlah keping biji, letak bakal biji, sistem pernapasan dan sistem peredaran darah. "    />
                 </TableRow>

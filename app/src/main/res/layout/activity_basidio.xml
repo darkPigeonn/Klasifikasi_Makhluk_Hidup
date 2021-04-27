@@ -14,40 +14,78 @@
 
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="10dp">
-
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/menubar"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_baseline_menu_24"
+                    android:onClick="showPopup" />
+            </RelativeLayout>
             <TextView
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="110dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="19sp"
+                android:textSize="20sp"
+                android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:text="BASIDIOMYCOTINA"
                 android:background="@drawable/bg_coklat"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="440dp"
-                android:textSize="18sp"
-                android:textColor="@color/white"
-                android:text="Basidiomycotina memiliki ciri-ciri antara lain: hifanya bersekat, mengandung inti haploid, mempunyai tubuh buah yang bentuknya seperti payung yang terdiri dari bagian batang dan tudung. Pada bagian bawah tudung tampak adanya lembaran-lembaran (bilah) yang merupakan tempat terbentuknya basidium. Tubuh buah disebut basidiokarp. Berkembangbiak dengan basidiospora, serta terdiri dari 3 macam miselium yaitu: miselium primer, yaitu miselium yang sel-selnya berinti satu hasil pertumbuhan basidiospora. Miselium sekunder, yaitu miselium yang sel-selnya berinti dua dan miselium tersier, yaitu miselium yang terdiri atas miselium sekunder yang terhimpun membentuk jaringan yang teratur pada pembentukan basidiokarp dan basidiofor yang menghasilkan basidiospora. Contohnya jamur kuping (Auricularia sp) dan jamur merang (Volvariella volvacea)  (Gambar 3.30)."
-                android:layout_marginTop="10dp"
-                android:justificationMode="inter_word"
-                android:padding="10dp"/>
-            <ImageView
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/h43gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="40dp"
-                android:layout_marginEnd="40dp"/>
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="440dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:text="Basidiomycotina memiliki ciri-ciri antara lain: hifanya bersekat, mengandung inti haploid, mempunyai tubuh buah yang bentuknya seperti payung yang terdiri dari bagian batang dan tudung. Pada bagian bawah tudung tampak adanya lembaran-lembaran (bilah) yang merupakan tempat terbentuknya basidium. Tubuh buah disebut basidiokarp. Berkembangbiak dengan basidiospora, serta terdiri dari 3 macam miselium yaitu: miselium primer, yaitu miselium yang sel-selnya berinti satu hasil pertumbuhan basidiospora. Miselium sekunder, yaitu miselium yang sel-selnya berinti dua dan miselium tersier, yaitu miselium yang terdiri atas miselium sekunder yang terhimpun membentuk jaringan yang teratur pada pembentukan basidiokarp dan basidiofor yang menghasilkan basidiospora. Contohnya jamur kuping (Auricularia sp) dan jamur merang (Volvariella volvacea)  (Gambar 3.30)."
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:padding="10dp"/>
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/basidiogambar"
+                        android:scaleType="fitXY"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="Gambar 3.30 : Auricularia sp
+Sumber : commons.wikimedia.org"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                </LinearLayout>
+            </ScrollView>
+
 
 
 

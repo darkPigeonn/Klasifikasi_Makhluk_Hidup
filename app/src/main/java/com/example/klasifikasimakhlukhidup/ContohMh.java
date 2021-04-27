@@ -8,8 +8,10 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 
 import com.example.klasifikasimakhlukhidup.cirimh.hal12_ciricirimakhlukhidup;
+import com.example.klasifikasimakhlukhidup.diskusi.Diskusi1;
 
 public class ContohMh extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
     float x1,x2,y1,y2;
@@ -17,11 +19,19 @@ public class ContohMh extends AppCompatActivity implements PopupMenu.OnMenuItemC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contoh_mh);
+
+        TextView yt1 = findViewById(R.id.idyoutube1);
+        yt1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ContohMh.this, Youtube_1.class));
+            }
+        });
     }
     public void showPopup(View view) {
         PopupMenu popupMenu = new PopupMenu(this, view);
         popupMenu.setOnMenuItemClickListener(this);
-        popupMenu.inflate(R.menu.menukompetensi);
+        popupMenu.inflate(R.menu.menumateri);
         popupMenu.show();
     }
 
@@ -51,7 +61,7 @@ public class ContohMh extends AppCompatActivity implements PopupMenu.OnMenuItemC
                 if(x1 > x2){
 //                    MediaPlayer mp = MediaPlayer.create(hal9_struktur_porifera.this,R.raw.sipe);
 //                    mp.start();
-                    Intent i = new Intent(ContohMh.this, ContohMh.class);
+                    Intent i = new Intent(ContohMh.this, Diskusi1.class);
                     startActivity(i);
                     overridePendingTransition(R.anim.slide_right,R.anim.slide_left_out);
                     finish();

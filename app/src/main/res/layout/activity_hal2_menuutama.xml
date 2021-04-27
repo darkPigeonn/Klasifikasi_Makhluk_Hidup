@@ -20,20 +20,29 @@
             android:layout_marginStart="50dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginStart="10dp"
+
+            <TextView
                 android:layout_marginTop="10dp"
-                android:background="@drawable/h2_judulmenuutama" />
+                android:layout_width="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bgjudull"
+                android:text="MENU UTAMA"
+                android:fontFamily="@font/alegreya"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:padding="29dip"/>
 
             <ImageView
+                android:layout_marginTop="10dp"
                 android:id="@+id/btn_petunjukpenggunaan"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_width="331dp"
+                android:layout_height="70dp"
                 android:layout_marginStart="10dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/h2_btnpetunjukpenggunaan" />
+                android:src="@drawable/petunjuk" />
 
 
             <ImageView
@@ -42,45 +51,46 @@
                 android:layout_height="70dp"
                 android:layout_marginStart="10dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/h2_btnkompetensi" />
+                android:src="@drawable/h2_btnkompetensi11" />
 
 
             <ImageView
+                android:layout_marginStart="10dp"
                 android:id="@+id/btn_konsep"
-                android:layout_width="348dp"
-                android:layout_height="73dp"
+                android:layout_width="331dp"
+                android:layout_height="70dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/h2_btnkonsep" />
+                android:src="@drawable/konsepbtn" />
 
             <ImageView
                 android:id="@+id/btn_materi"
-                android:layout_width="341dp"
-                android:layout_height="72dp"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
                 android:layout_marginStart="10dp"
-                android:background="@drawable/h2_btnmateri" />
+                android:background="@drawable/mteri" />
 
 
             <ImageView
                 android:id="@+id/btn_latihan"
-                android:layout_width="335dp"
-                android:layout_height="68dp"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
                 android:layout_marginStart="10dp"
-                android:background="@drawable/h2_btnlatihansoal" />
+                android:background="@drawable/latihansoal" />
 
 
             <ImageView
                 android:id="@+id/btn_daftarpustaka"
-                android:layout_width="337dp"
-                android:layout_height="68dp"
+                android:layout_width="329dp"
+                android:layout_height="70dp"
                 android:layout_marginStart="10dp"
-                android:background="@drawable/h2_btndaftarpustaka" />
+                android:background="@drawable/dp" />
 
             <ImageView
                 android:id="@+id/btn_informasi"
-                android:layout_width="334dp"
-                android:layout_height="71dp"
+                android:layout_width="328dp"
+                android:layout_height="70dp"
                 android:layout_marginStart="11dp"
-                android:background="@drawable/h2_btninformasi" />
+                android:background="@drawable/informasi" />
 
         </LinearLayout>
 

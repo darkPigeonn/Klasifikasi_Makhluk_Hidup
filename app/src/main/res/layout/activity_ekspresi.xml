@@ -27,7 +27,7 @@
                 <TextView
                     android:padding="9dip"
                     android:textAlignment="center"
-
+                    android:fontFamily="@font/alegreya"
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:textSize="25sp"
@@ -50,19 +50,33 @@
 
             </LinearLayout>
             <TextView
-
+                android:fontFamily="@font/aileron"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Pengeluaran zat sisa oleh makhluk hidup disebut ekskresi. Makhluk hidup memiliki alat ekskresi yang berbeda-beda, tumbuhan mengeluarkan karbon dioksida dan uap air melalui stomata dan inti sel. Manusia mengeluarkan urine melalui ginjal; karbon dioksida dan uap air melalui paru-paru; air dan garam mineral melalui kulit berupa keringat (Gambar 3.11). "
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
-            <ImageView
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/eksreasi" />
+            <TextView
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/h18gambar"
-                android:scaleType="fitXY"/>
+                android:fontFamily="@font/aileron"
+                android:text="Gambar 3.11 : Manusia berkeringat
+Sumber : facty.com"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
             <LinearLayout
                 android:layout_width="match_parent"

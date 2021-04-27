@@ -26,7 +26,7 @@
                 <TextView
                     android:padding="9dip"
                     android:textAlignment="center"
-
+                    android:fontFamily="@font/alegreya"
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:textSize="25sp"
@@ -50,12 +50,12 @@
             </LinearLayout>
 
             <TextView
-
+                android:fontFamily="@font/aileron"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Tumbuh merupakan pertambahan ukuran tubuh yang tidak dapat kembali lagi ke ukuran semula. Semua makhluk hidup mengalami pertumbuhan, mulai dari kecil hingga menjadi besar. Bayi yang kecil sewaktu baru lahir, akan tumbuh menjadi remaja dan kemudian menjadi dewasa (Gambar 3.9). Biji yang ditanam akan tumbuh menjadi kecambah dan kemudian menjadi tanaman yang lebih besar (Gambar 3.10). "
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
 
@@ -63,14 +63,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="200dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tumbuh"/>
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tumbuh2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aileron"
+                   android:text="Gambar 3.9 : Pertumbuhan manusia
+Sumber : capetowncjiro.com"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aileron"
+                    android:text="Gambar 3.10 : Pertumbuhan tanaman
+Sumber : www.vecteezy.com"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@color/white"/>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

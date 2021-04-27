@@ -4,13 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lumut.lumuthati">
+    tools:context=".Lumut2.lumuthati">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/h74backround">
+        android:background="#C7D0D8">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -24,27 +38,43 @@
                 android:layout_marginEnd="110dp"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:textSize="18sp"
+                android:textSize="19sp"
+                android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="LUMUT HATI
-(HEPATICOPHYTA)"
-                android:background="@drawable/bghijau"/>
+                android:text="@string/labelhati"
+                android:background="@drawable/bgijoijo"/>
             <TextView
                 android:padding="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:textSize="19sp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/aileron"
                 android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:justificationMode="inter_word"
                 android:textColor="@color/black"
-                android:text="Lumut hati (Hepaticophyta), memiliki ciri-ciri yaitu bentuk tubuh lumut hati berupa lembaran seperti sebuah hati, talus membentuk seperti akar, batang serta daun, bereproduksi secara seksual dan aseksual, bersifat autrotrof karena dapat melakukan proses fotosintesis, berdaging atau berbentuk lembaran pipih seperti daun. Contohnya: lumut hati (Marchantia)  (Gambar 3.49)."/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:src="@drawable/h70gambar"
-                android:scaleType="fitXY"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"/>
+                android:text="@string/isihati"/>
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/daungambar"></com.zolad.zoominimageview.ZoomInImageView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aileron"
+                android:text="@string/hatiteks"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@color/white"/>
 
         </LinearLayout>
     </RelativeLayout>

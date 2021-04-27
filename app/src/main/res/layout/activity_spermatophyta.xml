@@ -10,7 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -19,12 +30,18 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="91dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/btn_lumut"
-                android:padding="9dip" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="TUMBUHAN BIJI (SPERMATOPHYTA)"
+                android:fontFamily="@font/alegreya"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/bg_birulaut"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -32,9 +49,11 @@
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="18dip"
+                android:fontFamily="@font/aileron"
+                android:background="#C9FFFFFF"
                 android:text="@string/content_spermatophyta"
-                android:textColor="@color/white"
-                android:textSize="19sp" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -49,6 +68,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
+                    android:id="@+id/btnbijiterbuka"
                     android:layout_width="276dp"
                     android:layout_height="71dp"
                     android:layout_marginLeft="60dp"
@@ -62,6 +82,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
+                    android:id="@+id/btnbijitertutup"
                     android:layout_width="279dp"
                     android:layout_height="71dp"
                     android:layout_marginLeft="60dp"

@@ -10,7 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,11 +35,12 @@
                 android:layout_height="60dp"
                 android:layout_marginEnd="140dp"
                 android:background="@drawable/bg_kayu_oren"
-                android:padding="9dip"
+                android:padding="15dip"
+                android:fontFamily="@font/alegreya"
                 android:text="KINGDOM PLANTAE"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -37,9 +49,11 @@
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="18dip"
+                android:fontFamily="@font/aileron"
+                android:background="#CBFFFFFF"
                 android:text="@string/content_plantae"
-                android:textColor="@color/white"
-                android:textSize="19sp" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -47,45 +61,53 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="88dp"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_biji"></ImageButton>
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageButton
+                <Button
+                    android:id="@+id/btnbiji"
                     android:layout_width="276dp"
-                    android:layout_height="91dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tumbuhan biji (Spermatophyta)"
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/btn_lumut"></ImageButton>
-            </LinearLayout>
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:background="@drawable/bg_birulaut"></Button>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="87dp"
-                    android:layout_marginLeft="60dp"
+                <Button
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/btn_paku"></ImageButton>
+                    android:id="@+id/btnlumut"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tumbuhan paku (Pteridophyta)"
+                    android:layout_marginLeft="60dp"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:background="@drawable/bg_birulaut"></Button>
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnpaku"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tumbuhan lumut(Bryophyta)"
+                    android:layout_marginLeft="60dp"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:background="@drawable/bg_birulaut"></Button>
             </LinearLayout>
         </LinearLayout>
 
@@ -102,13 +124,15 @@
                 android:layout_height="40dp"
                 android:src="@drawable/logoyoutube"
                 android:scaleType="fitXY"/>
+
             <TextView
-                android:layout_marginStart="10dp"
+                android:id="@+id/youtube_plan"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
                 android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:text="@string/video_plantae"/>
+                android:text="@string/video_plantae"
+                android:textColor="@color/black" />
         </LinearLayout>
     </RelativeLayout>
 

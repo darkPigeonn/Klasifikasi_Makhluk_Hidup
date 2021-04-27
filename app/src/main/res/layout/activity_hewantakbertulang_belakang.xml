@@ -10,7 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,110 +29,139 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="325dp"
-                android:layout_height="93dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/btn_inver"
-                android:padding="9dip" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="71dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/alegreya"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:padding="10dip"
+                android:textAlignment="center"
+                android:text="HEWAN TIDAK BERTULANG BELAKANG (INVERTEBRATA)"
+                android:background="@drawable/bg_birulaut"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:padding="18dip"
+                android:fontFamily="@font/aileron"
                 android:text="@string/content_inver"
                 android:textColor="@color/black"
-                android:textSize="19sp" />
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="71dp"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_mollusca"></ImageButton>
-            </LinearLayout>
+                <Button
+                    android:id="@+id/btnmolu"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="MOLLUSCA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_echino"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
+                <Button
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_arthropoda"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
+                    android:id="@+id/btnechi"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="ECHINODERMATA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_annel"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_nema"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnart"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="ARTHROPODA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_platy"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_pori"></ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnanne"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="ANNELIDA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
 
-                <ImageButton
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/btn_coelen"></ImageButton>
+                <Button
+                    android:id="@+id/btnnema"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="NEMATODA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
+
+
+                <Button
+                    android:id="@+id/btnplaty"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="PLATYHELMINTHES"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
+
+
+                <Button
+                    android:id="@+id/btnpori"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="PORIFERA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat"></Button>
+
+
+                <Button
+                    android:id="@+id/btncoe"
+                    android:layout_width="300dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="19sp"
+                    android:text="COELENTERATA"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dip"
+                    android:layout_height="50dp"
+                    android:background="@drawable/kayucoklat">
+
+                </Button>
             </LinearLayout>
         </LinearLayout>
 

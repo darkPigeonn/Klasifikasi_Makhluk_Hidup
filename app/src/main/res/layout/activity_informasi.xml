@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,17 +30,25 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="310dp"
-                android:layout_height="76dp"
-                android:layout_marginEnd="140dp"
-                android:background="@drawable/title_info"
-                android:padding="9dip" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/alegreya"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:padding="10dip"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="INFORMASI"
+                android:background="@drawable/bg_merah"/>
 
             <ScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <LinearLayout
+                    android:layout_marginTop="30dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -56,7 +76,8 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:justificationMode="inter_word"
-                        android:textSize="19sp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/aileron"
                         android:text="@string/content_info_penulis"/>
                     <LinearLayout
                     android:layout_width="wrap_content"
@@ -71,7 +92,8 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:justificationMode="inter_word"
-                        android:textSize="19sp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/aileron"
                         android:text="@string/content_info_produk"/>
                     <LinearLayout
                         android:layout_width="wrap_content"

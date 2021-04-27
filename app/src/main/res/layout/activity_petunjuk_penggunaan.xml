@@ -17,12 +17,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <ImageView
-                android:layout_width="340dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="20dp"
-                android:background="@drawable/judulpetunjukpenggunaan"/>
 
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bgjudull"
+                android:text="PETUNJUK PENGGUNAAN"
+                android:fontFamily="@font/alegreya"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:padding="29dip"/>
             <ImageButton
                 android:id="@+id/menubar"
                 android:layout_width="50dp"
@@ -53,12 +60,12 @@
                 android:background="@drawable/bg_nofill"
                 android:paddingStart="40dp"
                 android:paddingEnd="40dp"
-                android:paddingTop="5dp"
+                android:paddingTop="2dp"
                 android:paddingBottom="5dp"
                 android:text="Petunjuk Aplikasi"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:fontFamily="@font/chewyregular"
+                android:fontFamily="@font/alegreya"
                 android:textSize="20sp"/>
             <TextView
                 android:layout_marginTop="5dp"
@@ -66,8 +73,9 @@
                 android:layout_height="wrap_content"
                 android:text="Persembahan istimewa untuk peserta didik semua.
 Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya maksimal. Alangkah baiknya peserta didik memahami petunjuk penggunaan buku saku android terlebih dahulu."
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/aileron"
                 android:textAlignment="center"
                 android:textColor="@color/black"/>
             <TextView
@@ -82,7 +90,7 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                 android:text="Petunjuk Penggunaan"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:fontFamily="@font/chewyregular"
+                android:fontFamily="@font/alegreya"
                 android:textSize="20sp"/>
             <TableRow
                 android:layout_width="fill_parent"
@@ -91,22 +99,24 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1."
+                    android:fontFamily="@font/aileron"
                     android:padding="5dip"
                     android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:textSize="16sp"/>
                 <TextView
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:padding="5dip"
+                    android:fontFamily="@font/aileron"
                     android:text="Penggunaan buku saku android dapat dimulai dari mana saja, namun alangkah baiknya apabila peserta didik runtut dalam mempelajari buku saku android ini."
                     android:justificationMode="inter_word"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:textSize="16sp"/>
             </TableRow>
             <TableRow
                 android:layout_width="fill_parent"
@@ -119,7 +129,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                     android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:fontFamily="@font/aileron"
+                    android:textSize="16sp"/>
                 <TextView
 
                     android:layout_width="match_parent"
@@ -130,7 +141,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                     android:justificationMode="inter_word"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:fontFamily="@font/aileron"
+                    android:textSize="16sp"/>
             </TableRow>
             <TableRow
                 android:layout_width="fill_parent"
@@ -143,7 +155,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                     android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:fontFamily="@font/aileron"
+                    android:textSize="16sp"/>
                 <TextView
 
                     android:layout_width="match_parent"
@@ -154,7 +167,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                     android:justificationMode="inter_word"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="17sp"/>
+                    android:fontFamily="@font/aileron"
+                    android:textSize="16sp"/>
             </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -167,7 +181,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:textColor="@color/black"
                         android:textAlignment="center"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                     <TextView
 
                         android:layout_width="match_parent"
@@ -178,7 +193,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:justificationMode="inter_word"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -191,7 +207,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:textColor="@color/black"
                         android:textAlignment="center"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                     <TextView
 
                         android:layout_width="match_parent"
@@ -202,7 +219,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:justificationMode="inter_word"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -215,7 +233,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:textColor="@color/black"
                         android:textAlignment="center"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                     <TextView
 
                         android:layout_width="match_parent"
@@ -226,7 +245,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:justificationMode="inter_word"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -239,7 +259,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:textColor="@color/black"
                         android:textAlignment="center"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                     <TextView
 
                         android:layout_width="match_parent"
@@ -250,7 +271,8 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:justificationMode="inter_word"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="17sp"/>
+                        android:fontFamily="@font/aileron"
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TextView

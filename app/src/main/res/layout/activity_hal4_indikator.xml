@@ -17,11 +17,12 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
+                android:layout_marginTop="20dp"
                 android:layout_width="340dp"
-                android:layout_height="90dp"
+                android:layout_height="60dp"
                 android:scaleType="fitXY"
                 android:layout_marginStart="20dp"
-                android:background="@drawable/indikator"/>
+                android:background="@drawable/ipk"/>
 
             <ImageButton
                 android:id="@+id/menubar"
@@ -51,7 +52,8 @@
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"
-                    android:textSize="20sp"/>
+                    android:textSize="19sp"
+                    android:fontFamily="@font/alegreya"/>
 
                 <ScrollView
                     android:layout_width="match_parent"
@@ -73,7 +75,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -83,7 +87,9 @@
                                 android:text="Menjelaskan pengertian makhluk hidup dan tak hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
 
                         <TableRow
@@ -96,7 +102,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -106,7 +114,9 @@
                                 android:text="Mengidentifikasi ciri-ciri makhluk hidup dan tak hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -118,7 +128,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -128,7 +140,9 @@
                                 android:text="Menjelaskan perbedaan makhluk hidup dan tak hidup."
                                 android:textColor="@color/black"
                                 android:justificationMode="inter_word"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -140,7 +154,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -150,7 +166,9 @@
                                 android:text="Menyebutkan contoh makhluk hidup dan tak hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -162,7 +180,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -172,7 +192,9 @@
                                 android:text="Mengklasifikasi makhluk hidup yang ada disekitar."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -184,7 +206,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -194,7 +218,9 @@
                                 android:text="Menjelaskan manfaat dan tujuan klasifikasi makhluk hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -206,7 +232,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -216,7 +244,9 @@
                                 android:text="Menjelaskan tata cara pemberian nama ilmiah."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -228,7 +258,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -238,7 +270,9 @@
                                 android:text="Mengelompokan makhluk hidup dengan cara dikotom."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -250,7 +284,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -260,7 +296,9 @@
                                 android:text="Menjelaskan urutan taksonomi hewan dan tumbuhan dari tingkatan tinggi ke tingkat rendah."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -272,7 +310,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -282,7 +322,9 @@
                                 android:text="Mendeskripsikan ciri masing-masing 5 kingdom makhluk hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -294,7 +336,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -304,7 +348,9 @@
                                 android:text="Menyebutkan contoh dari masing-masing 5 kingdom makhluk hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -316,7 +362,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -326,7 +374,9 @@
                                 android:text="Menjelaskan peranan (keuntungan) dari masing 5 kingdom makhluk hidup dalam kehidupan."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -338,7 +388,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -348,7 +400,9 @@
                                 android:text="Menjelaskan kerugian dari masing-masing 5 kingdom makhluk hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                         <TableRow
                             android:layout_width="fill_parent"
@@ -360,7 +414,9 @@
                                 android:padding="5dip"
                                 android:textColor="@color/black"
                                 android:textAlignment="center"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                             <TextView
 
                                 android:layout_width="match_parent"
@@ -370,7 +426,9 @@
                                 android:text="Mempresentasikan hasil diskusi tentang kunci determinasi dan klasifikasi makhluk hidup."
                                 android:justificationMode="inter_word"
                                 android:textColor="@color/black"
-                                android:textSize="19sp"/>
+                                android:fontFamily="@font/aileron"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
                         </TableRow>
                     </LinearLayout>
                 </ScrollView>

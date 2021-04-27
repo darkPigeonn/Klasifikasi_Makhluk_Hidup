@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuutama"
+        android:title="@string/menu_utama" />
+    <item android:id="@+id/menumateribarr"
+        android:title="@string/menu_materi" />
+    <item android:id="@+id/menusistemklasifikasi"
+        android:title="Menu Perkembangan" />
+    <item android:id="@+id/menusistemklasifikasi_plantae"
+        android:title="Menu Kingdom Plantae" />
+    <item android:id="@+id/menusistemklasifikasi_plantae_lumut"
+        android:title="Menu Tumbuhan Lumut" />
+</menu>

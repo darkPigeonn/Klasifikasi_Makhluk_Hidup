@@ -32,6 +32,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="#FFFFFF"
+                    android:fontFamily="@font/alegreya"
                     android:text="Pengertian Makhluk Hidup dan Tak Hidup"
                     android:background="@drawable/rectangle_rounded"/>
 
@@ -51,12 +52,13 @@
             </LinearLayout>
 
             <TextView
+                android:fontFamily="@font/aileron"
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Makhluk hidup merupakan benda hidup yang mempunyai ciri-ciri yang membedakan dengan benda tak hidup. Makhluk hidup dibedakan menjadi tiga kelompok yaitu, manusia, hewan dan tumbuhan. Dari ketiga jenis makhluk hidup tersebut dalam kehidupan saling berinteraksi satu dengan yang lain. Sedangkan makhluk tak hidup atau benda mati merupakan suatu komponen penyusun ekosistem yang keberadaannya mampu mempengaruhi kehidupan organisme. Makhluk tak hidup berasal dari proses alamiah secara fisik maupun kimia. Makhluk tak hidup tidak memiliki materi genetik dan ciri-ciri seperti makhluk hidup lain."
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
         </LinearLayout>

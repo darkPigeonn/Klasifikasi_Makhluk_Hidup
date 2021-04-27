@@ -40,7 +40,7 @@
                 android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="500dp"
-                android:src="@drawable/hal9_diagramkonsep"
+                android:src="@drawable/petakonsep"
                 android:scaleType="fitXY"/>
         </LinearLayout>
 
