@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/menuu"
+        android:icon="@mipmap/iconnew"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -22,6 +22,9 @@
         <activity android:name=".diskusi.Diskusi1" />
         <activity android:name=".PetunjukPenggunaan" />
         <activity android:name=".Youtube_1" />
+        <activity android:name=".Lumut2.lumutdaun"/>
+        <activity android:name=".Lumut2.lumuttanduk"/>
+        <activity android:name=".Lumut2.lumuthati"/>
         <activity android:name=".informasi" />
         <activity android:name=".daftar_pustaka" />
         <activity android:name=".latihan_soal" />
@@ -76,8 +79,12 @@
         <activity android:name=".contoh5kindom.Deutero" />
         <activity android:name=".contoh5kindom.Zigo" />
         <activity android:name=".contoh5kindom.Basidio" />
-        <activity android:name=".contoh5kindom.Ascomycotina" />
-        <activity android:name=".contoh5kindom.ProtistaMiripJamur" />
+        <activity android:name=".contoh5kindom.Ascomycotina" >
+
+        </activity>
+        <activity android:name=".contoh5kindom.ProtistaMiripJamur" >
+
+        </activity>
         <activity android:name=".contoh5kindom.Alga" />
         <activity android:name=".contoh5kindom.Protozoa" />
         <activity android:name=".perkembangansistemklasifikasi.PerkembanganSistemKlasifikasi" />
@@ -114,7 +121,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" >
+
+        </activity>
     </application>
 
 </manifest>

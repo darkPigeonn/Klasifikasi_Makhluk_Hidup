@@ -32,13 +32,13 @@ public class Tumbuh extends AppCompatActivity implements PopupMenu.OnMenuItemCli
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Tumbuh.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Tumbuh.this, hal10_menumateri.class));
-                finish();
+                finish();break;
             case R.id.menuciribar:
                 startActivity(new Intent(Tumbuh.this, hal12_ciricirimakhlukhidup.class));
-                finish();
+                finish();break;
         }
         return false;
     }

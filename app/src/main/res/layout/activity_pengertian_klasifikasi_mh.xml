@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="30dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -53,7 +54,7 @@
 
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -68,7 +69,7 @@ Sumber : reference.com"
 
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/aileron"

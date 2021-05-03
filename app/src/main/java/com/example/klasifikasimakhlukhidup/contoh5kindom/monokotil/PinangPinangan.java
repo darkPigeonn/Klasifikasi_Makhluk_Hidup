@@ -35,23 +35,23 @@ public class PinangPinangan extends AppCompatActivity implements PopupMenu.OnMen
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(PinangPinangan.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(PinangPinangan.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(PinangPinangan.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(PinangPinangan.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji:
                 startActivity(new Intent(PinangPinangan.this, spermatophyta.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji_tutup_monokotil:
                 startActivity(new Intent(PinangPinangan.this, monokotil.class));
-                finish();
+                finish();break;
         }
         return false;
     }

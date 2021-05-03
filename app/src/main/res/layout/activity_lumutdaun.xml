@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -25,7 +26,7 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -33,7 +34,7 @@
 
             <TextView
                 android:textAlignment="center"
-                android:padding="10dp"
+                android:padding="15dip"
                 android:layout_marginEnd="110dp"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -41,8 +42,7 @@
                 android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:text="LUMUT DAUN
-(BRYOPHYTA)"
+                android:text="@string/isi_daun"
                 android:background="@drawable/bgijoijo"/>
 
 

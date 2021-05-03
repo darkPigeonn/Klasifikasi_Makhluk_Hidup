@@ -34,20 +34,20 @@ public class COELENTERATA extends AppCompatActivity implements PopupMenu.OnMenuI
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(COELENTERATA.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(COELENTERATA.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(COELENTERATA.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(COELENTERATA.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_takbertulang:
                 startActivity(new Intent(COELENTERATA.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

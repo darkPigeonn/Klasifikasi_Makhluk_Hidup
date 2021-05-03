@@ -32,12 +32,15 @@ public class bergerak extends AppCompatActivity implements PopupMenu.OnMenuItemC
             case R.id.menuutama:
                 startActivity(new Intent(bergerak.this, hal2_menuutama.class));
                 finish();
+                break;
             case R.id.menumateribarr:
                 startActivity(new Intent(bergerak.this, hal10_menumateri.class));
                 finish();
+                break;
             case R.id.menuciribar:
                 startActivity(new Intent(bergerak.this, hal12_ciricirimakhlukhidup.class));
                 finish();
+                break;
         }
         return false;
     }

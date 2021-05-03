@@ -51,20 +51,20 @@ public class angiospermae extends AppCompatActivity implements PopupMenu.OnMenuI
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(angiospermae.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(angiospermae.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(angiospermae.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(angiospermae.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji:
                 startActivity(new Intent(angiospermae.this, spermatophyta.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -31,12 +31,14 @@ public class hal11_pengertianmakhlukhidup extends AppCompatActivity implements P
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal11_pengertianmakhlukhidup.this,hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(hal11_pengertianmakhlukhidup.this,hal10_menumateri.class));
                 finish();
+                break;
+
         }
-        return false;
+        return true;
     }
     public boolean onTouchEvent(MotionEvent touchEvent) {
 

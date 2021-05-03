@@ -76,7 +76,7 @@ public class hal10_menumateri extends AppCompatActivity implements PopupMenu.OnM
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal10_menumateri.this,hal2_menuutama.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -42,8 +42,7 @@
                 android:textSize="19sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="PAKU EKOR KUDA
-(EQUISETINAE)"
+                android:text="@string/kudalabel"
                 android:background="@drawable/bg_ijo"/>
 
             <TextView

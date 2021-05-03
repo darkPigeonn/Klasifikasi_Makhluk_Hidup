@@ -28,10 +28,10 @@ public class hal4_indikator extends AppCompatActivity implements PopupMenu.OnMen
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal4_indikator.this,hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menukompetensibar:
                 startActivity(new Intent(hal4_indikator.this,hal4_menukompetensi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -12,25 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_marginRight="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="10dp">
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageButton
-                    android:layout_alignParentRight="true"
-                    android:id="@+id/menubar"
-                    android:layout_marginRight="0dp"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_baseline_menu_24"
-                    android:onClick="showPopup" />
-            </RelativeLayout>
+
 
             <TextView
                 android:textAlignment="center"
@@ -42,7 +42,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/alegreya"
                 android:textColor="@color/white"
-                android:text="ASCOMYCOTINA"
+                android:text="@string/ascomycotina"
                 android:background="@drawable/bg_coklat"/>
 
             <TextView
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:textColor="@color/white"
-                android:text="Ascomycotina memiliki ciri-ciri antara lain: tubuh ada yang uniselluler dan ada yang multiselluler, memiliki hifa yang bersekat-sekat dan berinti banyak, hidupnya ada yang parasit, saprofit dan berkembangbiak dengan askospora. Contohnya ragi (Saccharomyces cerevisiae) (Gambar 3.29)."
+                android:text="@string/ascomycotina_memiliki_ciri_ciri_antara_lain_tubuh_ada_yang_uniselluler_dan_ada_yang_multiselluler_memiliki_hifa_yang_bersekat_sekat_dan_berinti_banyak_hidupnya_ada_yang_parasit_saprofit_dan_berkembangbiak_dengan_askospora_contohnya_ragi_saccharomyces_cerevisiae_gambar_3_29"
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"/>
@@ -62,14 +62,13 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginEnd="40dp"/>
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 android:padding="10dp"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/aileron"
-                android:text="Gambar 3.29 : Saccharomyces cerevisiae
-Sumber : ethz.ch"
+                android:text="@string/labelascom"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textStyle="bold"

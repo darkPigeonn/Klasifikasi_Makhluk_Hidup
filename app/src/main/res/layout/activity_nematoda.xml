@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -26,7 +27,7 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -38,7 +39,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/alegreya"
                 android:textSize="19sp"
-                android:text="NEMATODA"
+                android:text="@string/nematoda"
                 android:padding="18dip"
                 android:textColor="@color/black"
                 android:paddingBottom="10dip"
@@ -55,7 +56,7 @@
                 android:fontFamily="@font/aileron"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Ciri-ciri dari hewan nematoda yaitu berbentuk bulat panjang atau mirip dengan benang, hewan tripoblastik dan pseudoselomata (berongga tubuh semu), hidup bebas dengan memakan sampah organik, hidup parasit dihewan, manusia dan tumbuhan. Habitat hidupnya di air tawar, air laut, air payau serta di tanah. Contohnya yaitu: cacing perut (Ascaris lumbricoides), cacing kremi (Enterobius vermicularis) dan cacing tambang (Ancylostoma duodenale) (Gambar 3.55). "/>
+                android:text="@string/isi_nematoda"/>
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_marginTop="20dp"

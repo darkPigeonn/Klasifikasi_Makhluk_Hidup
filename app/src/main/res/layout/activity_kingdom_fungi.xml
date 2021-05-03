@@ -10,7 +10,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/menubar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:onClick="showPopup" />
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,17 +28,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageButton
-                    android:layout_alignParentRight="true"
-                    android:id="@+id/menubar"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_baseline_menu_24"
-                    android:onClick="showPopup" />
-            </RelativeLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -61,40 +61,43 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <ImageButton
+                <Button
+                    android:layout_marginTop="20dp"
                     android:id="@+id/btnascom"
-                    android:layout_width="wrap_content"
+                    android:text="@string/ascomycotina"
+                    android:layout_width="200dp"
                     android:layout_height="match_parent"
 
-                    android:background="@drawable/btn_asco"></ImageButton>
+                    android:background="@drawable/bg_hitam"></Button>
 
-                <ImageButton
+                <Button
                     android:id="@+id/btnbasidio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                      android:text="@string/basidiomycotina"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
 
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/btn_basidi">
-                </ImageButton>
+                    android:background="@drawable/bg_hitam"></Button>
 
 
-                <ImageButton
+
+                <Button
                     android:id="@+id/btnzigo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/zigomycotina"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
 
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/btn_zigo">
-                </ImageButton>
+                    android:background="@drawable/bg_hitam"></Button>
 
-                <ImageButton
+                <Button
                     android:id="@+id/btndeutero"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/deuteromycotina"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
 
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/btn_deute">
-                </ImageButton>
+                    android:background="@drawable/bg_hitam"></Button>
             </LinearLayout>
         </LinearLayout>
 

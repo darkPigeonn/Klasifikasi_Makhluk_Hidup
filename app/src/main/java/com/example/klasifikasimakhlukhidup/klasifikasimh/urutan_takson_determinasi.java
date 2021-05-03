@@ -32,10 +32,10 @@ public class urutan_takson_determinasi extends AppCompatActivity implements Popu
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(urutan_takson_determinasi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(urutan_takson_determinasi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

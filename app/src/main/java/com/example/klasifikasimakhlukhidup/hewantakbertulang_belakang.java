@@ -97,17 +97,17 @@ public class hewantakbertulang_belakang extends AppCompatActivity implements Pop
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hewantakbertulang_belakang.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(hewantakbertulang_belakang.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(hewantakbertulang_belakang.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(hewantakbertulang_belakang.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

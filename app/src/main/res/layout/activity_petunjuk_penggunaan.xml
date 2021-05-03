@@ -10,14 +10,12 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
-            android:layout_marginTop="20dp"
+
             android:id="@+id/atas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_width="350dp"
@@ -30,13 +28,20 @@
                 android:textAlignment="center"
                 android:textSize="24dp"
                 android:padding="29dip"/>
-            <ImageButton
-                android:id="@+id/menubar"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_baseline_menu_24"
-                android:layout_alignParentRight="true"
-                android:onClick="showPopup" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/menubar"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_baseline_menu_24"
+                    android:onClick="showPopup" />
+            </RelativeLayout>
+
         </LinearLayout>
 
         <ScrollView
@@ -267,14 +272,23 @@ Supaya kalian mudah dalam mempelajari buku saku android ini dan penggunaannya ma
                         android:layout_height="wrap_content"
                         android:background="@color/white"
                         android:padding="5dip"
-                        android:text="Berikut ini link (video) cara penggunaan buku saku android:"
+                        android:text="Tekan tombol 'Video' dibawah ini, untuk melihat cara penggunaan buku saku android."
                         android:justificationMode="inter_word"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:fontFamily="@font/aileron"
                         android:textSize="16sp"/>
-                </TableRow>
 
+                </TableRow>
+                <Button
+                    android:id="@+id/videotutorial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video"
+                    android:fontFamily="@font/alegreya"
+                    android:textSize="16sp"
+                    android:background="@drawable/bg_merah"
+                    android:layout_gravity="center_horizontal"/>
                 <TextView
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"

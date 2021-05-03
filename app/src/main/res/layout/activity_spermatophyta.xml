@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -34,7 +35,7 @@
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="TUMBUHAN BIJI (SPERMATOPHYTA)"
+                android:text="@string/button_biji"
                 android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textSize="20sp"

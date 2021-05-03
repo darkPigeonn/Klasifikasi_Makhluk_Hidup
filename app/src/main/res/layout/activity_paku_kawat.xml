@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -25,7 +26,7 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -43,7 +44,7 @@
                 android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="@string/paku_kawat_lyopodinae"
+                android:text="@string/kawatlabel"
                 android:background="@drawable/bg_ijo"/>
 
             <TextView

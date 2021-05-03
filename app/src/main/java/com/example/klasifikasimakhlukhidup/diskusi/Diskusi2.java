@@ -27,7 +27,8 @@ public class Diskusi2 extends AppCompatActivity implements PopupMenu.OnMenuItemC
         soal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://download1336.mediafire.com/v0i4v2k57usg/h5rv76j1ymbjjuo/LEMBAR+KERJA+PESERTA+DIDIK+2.docx"));
+                //Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://download1336.mediafire.com/v0i4v2k57usg/h5rv76j1ymbjjuo/LEMBAR+KERJA+PESERTA+DIDIK+2.docx"));
+                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mediafire.com/file/h5rv76j1ymbjjuo/LEMBAR_KERJA_PESERTA_DIDIK_2.docx/file"));
                 startActivity(implicit);
             }
         });
@@ -44,10 +45,10 @@ public class Diskusi2 extends AppCompatActivity implements PopupMenu.OnMenuItemC
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Diskusi2.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Diskusi2.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

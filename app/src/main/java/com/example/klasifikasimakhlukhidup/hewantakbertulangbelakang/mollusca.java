@@ -33,20 +33,20 @@ public class mollusca extends AppCompatActivity implements PopupMenu.OnMenuItemC
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(mollusca.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(mollusca.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(mollusca.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(mollusca.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_takbertulang:
                 startActivity(new Intent(mollusca.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

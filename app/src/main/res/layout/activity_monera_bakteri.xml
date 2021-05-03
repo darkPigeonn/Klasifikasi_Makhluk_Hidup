@@ -18,6 +18,7 @@
                 <ImageButton
                     android:layout_alignParentRight="true"
                     android:id="@+id/menubar"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="0dp"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -26,6 +27,7 @@
             </RelativeLayout>
 
             <ScrollView
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout

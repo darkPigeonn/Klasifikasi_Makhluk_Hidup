@@ -58,7 +58,25 @@
                 android:textSize="16sp"
                 android:padding="18dip"
                 android:justificationMode="inter_word"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
 
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/iri1"/>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/iri2"/>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -56,14 +56,14 @@ public class kingdom_animalia extends AppCompatActivity implements PopupMenu.OnM
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(kingdom_animalia.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(kingdom_animalia.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(kingdom_animalia.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

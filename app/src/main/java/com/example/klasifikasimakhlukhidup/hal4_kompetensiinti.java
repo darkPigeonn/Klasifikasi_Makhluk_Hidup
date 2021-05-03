@@ -28,10 +28,10 @@ public class hal4_kompetensiinti extends AppCompatActivity implements PopupMenu.
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal4_kompetensiinti.this,hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menukompetensibar:
                 startActivity(new Intent(hal4_kompetensiinti.this,hal4_menukompetensi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

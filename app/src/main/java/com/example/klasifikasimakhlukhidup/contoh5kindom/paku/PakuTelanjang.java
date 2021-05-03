@@ -34,20 +34,20 @@ public class PakuTelanjang extends AppCompatActivity implements PopupMenu.OnMenu
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(PakuTelanjang.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(PakuTelanjang.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(PakuTelanjang.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(PakuTelanjang.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_paku:
                 startActivity(new Intent(PakuTelanjang.this, paku.class));
-                finish();
+                finish();break;
         }
         return false;
     }

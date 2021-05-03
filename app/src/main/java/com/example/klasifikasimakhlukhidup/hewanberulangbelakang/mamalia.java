@@ -34,20 +34,20 @@ public class mamalia extends AppCompatActivity implements PopupMenu.OnMenuItemCl
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(mamalia.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(mamalia.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(mamalia.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(mamalia.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_bertulang:
                 startActivity(new Intent(mamalia.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

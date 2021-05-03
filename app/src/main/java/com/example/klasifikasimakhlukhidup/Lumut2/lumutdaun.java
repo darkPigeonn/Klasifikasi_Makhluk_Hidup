@@ -34,20 +34,20 @@ public class lumutdaun extends AppCompatActivity implements PopupMenu.OnMenuItem
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(lumutdaun.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(lumutdaun.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(lumutdaun.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(lumutdaun.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_paku:
                 startActivity(new Intent(lumutdaun.this, paku.class));
-                finish();
+                finish();break;
         }
         return false;
     }

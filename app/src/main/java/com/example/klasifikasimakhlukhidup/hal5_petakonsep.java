@@ -27,7 +27,7 @@ public class hal5_petakonsep extends AppCompatActivity implements PopupMenu.OnMe
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal5_petakonsep.this,hal2_menuutama.class));
-                finish();
+                finish();break;
         }
         return false;
     }

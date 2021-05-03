@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -72,23 +73,9 @@
                     android:id="@+id/btnbiji"
                     android:layout_width="276dp"
                     android:layout_height="wrap_content"
-                    android:text="Tumbuhan biji (Spermatophyta)"
+                    android:text="@string/button_biji"
                     android:layout_marginLeft="60dp"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/alegreya"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:padding="5dp"
-                    android:background="@drawable/bg_birulaut"></Button>
-
-
-                <Button
-                    android:layout_marginTop="20dp"
-                    android:id="@+id/btnlumut"
-                    android:layout_width="276dp"
-                    android:layout_height="wrap_content"
-                    android:text="Tumbuhan paku (Pteridophyta)"
-                    android:layout_marginLeft="60dp"
                     android:fontFamily="@font/alegreya"
                     android:textStyle="bold"
                     android:textSize="20sp"
@@ -101,7 +88,21 @@
                     android:id="@+id/btnpaku"
                     android:layout_width="276dp"
                     android:layout_height="wrap_content"
-                    android:text="Tumbuhan lumut(Bryophyta)"
+                    android:text="@string/button_paku"
+                    android:layout_marginLeft="60dp"
+                    android:fontFamily="@font/alegreya"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:background="@drawable/bg_birulaut"></Button>
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnlumut"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_lumut"
                     android:layout_marginLeft="60dp"
                     android:fontFamily="@font/alegreya"
                     android:textStyle="bold"

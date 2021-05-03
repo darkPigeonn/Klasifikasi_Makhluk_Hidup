@@ -33,20 +33,20 @@ public class aves extends AppCompatActivity implements PopupMenu.OnMenuItemClick
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(aves.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(aves.this, hal10_menumateri.class));
                 finish();
-
+                break;
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(aves.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(aves.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_bertulang:
                 startActivity(new Intent(aves.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

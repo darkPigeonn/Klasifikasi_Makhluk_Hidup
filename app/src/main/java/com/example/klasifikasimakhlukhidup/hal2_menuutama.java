@@ -2,6 +2,8 @@ package com.example.klasifikasimakhlukhidup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -73,4 +75,27 @@ public class hal2_menuutama extends AppCompatActivity {
             }
         });
     }
+
+    public void close(View view) {
+        new AlertDialog.Builder(this)
+                .setIcon(R.mipmap.iconnew)
+                .setTitle(R.string.app_name)
+                .setMessage("Kamu yakin ingin keluar?")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        finishAffinity(); // Close all activites
+                        System.exit(0);  // Releasing resources
+                    }
+                })
+                .setNegativeButton("Batal", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                })
+                .show();
+    }
+
 }

@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -33,6 +34,7 @@
             android:orientation="vertical"
             android:padding="10dp">
             <TextView
+                android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="140dp"
@@ -42,8 +44,7 @@
                 android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="RUMPUT - RUMPUTAN
-(GRAMINEAE)"
+                android:text="@string/rumputlabel"
                 android:background="@drawable/bg_pink"/>
 
             <TextView
@@ -51,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:fontFamily="@font/aileron"
-                android:text="Rumput-rumputan (Gramineae), ciri-cirinya memiliki daun berbentuk pita, tulang daun sejajar dan melekat langsung pada batang, batang sedikit berongga, berakar serabut, berbentuk bulir, penyerbukan dibantu oleh angin. Contohnya gandum (Triticum aestivum), tebu (Saccharum officinarum L.), bambu betung (D. asper) dan  padi (Oryza sativa) (Gambar 3.43)."
+                android:text="@string/isi_rumput"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"

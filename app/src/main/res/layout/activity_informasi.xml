@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -46,30 +47,29 @@
 
             <ScrollView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+               >
                 <LinearLayout
                     android:layout_marginTop="30dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30dp"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+
                         <ImageView
                             android:layout_width="222dp"
                             android:layout_height="263dp"
                             android:layout_marginLeft="80dp"
                             android:background="@drawable/pic_info"/>
-                    </LinearLayout>
 
-                    <LinearLayout
+                    <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/title_penulis"
                         android:layout_marginLeft="70dp"
-                        android:layout_marginTop="20dp">
-                    </LinearLayout>
+                        android:layout_marginTop="20dp"/>
+
                     <TextView
                         android:padding="2dip"
                         android:layout_width="wrap_content"
@@ -79,13 +79,13 @@
                         android:textSize="16sp"
                         android:fontFamily="@font/aileron"
                         android:text="@string/content_info_penulis"/>
-                    <LinearLayout
+                    <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/title_produk"
                     android:layout_marginLeft="70dp"
-                    android:layout_marginTop="20dp">
-                    </LinearLayout>
+                    android:layout_marginTop="20dp"/>
+
                     <TextView
                         android:padding="2dip"
                         android:layout_width="wrap_content"
@@ -95,19 +95,16 @@
                         android:textSize="16sp"
                         android:fontFamily="@font/aileron"
                         android:text="@string/content_info_produk"/>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
 
                         <ImageView
                             android:layout_width="140dp"
                             android:layout_height="98dp"
-                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="50dp"
                             android:layout_marginLeft="120dp"
                             android:background="@drawable/as5_soal">
 
                         </ImageView>
-                    </LinearLayout>
+
                 </LinearLayout>
 
 

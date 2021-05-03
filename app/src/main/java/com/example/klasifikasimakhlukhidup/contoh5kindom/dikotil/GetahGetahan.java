@@ -37,23 +37,23 @@ public class GetahGetahan extends AppCompatActivity implements PopupMenu.OnMenuI
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(GetahGetahan.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(GetahGetahan.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(GetahGetahan.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(GetahGetahan.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji:
                 startActivity(new Intent(GetahGetahan.this, spermatophyta.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji_tutup_dikotil:
                 startActivity(new Intent(GetahGetahan.this, dikotil.class));
-                finish();
+                finish();break;
         }
         return false;
     }

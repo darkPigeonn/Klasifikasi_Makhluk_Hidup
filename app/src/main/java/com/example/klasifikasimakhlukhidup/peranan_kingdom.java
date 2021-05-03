@@ -50,10 +50,10 @@ public class peranan_kingdom extends AppCompatActivity implements PopupMenu.OnMe
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(peranan_kingdom.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(peranan_kingdom.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

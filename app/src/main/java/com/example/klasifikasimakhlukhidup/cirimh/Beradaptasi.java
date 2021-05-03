@@ -31,13 +31,13 @@ public class Beradaptasi extends AppCompatActivity implements PopupMenu.OnMenuIt
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Beradaptasi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Beradaptasi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
             case R.id.menuciribar:
                 startActivity(new Intent(Beradaptasi.this, hal12_ciricirimakhlukhidup.class));
-                finish();
+                finish();break;
         }
         return false;
     }

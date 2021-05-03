@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -52,7 +53,7 @@
                 android:justificationMode="inter_word"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Ciri-ciri utama untuk hewan mammalia ialah pada umunya hidup di daratan, akan tetapi ada pula yang hidup di air seperti ikan paus dan lumba-lumba. Selain itu hewan mammalia memliki kelenjar susu, memiliki rambut yang menutupi tubuhnya, bernapas dengan paru-paru, dan suhu tubuh pada mammalia umumnya diatur oleh hipotalamus, berdarah panas. Contoh hewan mammalia yaitu lumba-lumba (Tursiops truncates), paus (Rhincodon typus), kanguru (Macropus giganteus), kelelawar (Chiroptera), gajah (Elephas maximus), singa (Phantera Leo) dan orang utan (Pongo pygmaeus) (Gambar 3.59). "/>
+                android:text="@string/isi_mamalia"/>
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center"

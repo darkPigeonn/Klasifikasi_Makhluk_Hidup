@@ -29,17 +29,17 @@ public class monera_ganggang extends AppCompatActivity implements PopupMenu.OnMe
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(monera_ganggang.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(monera_ganggang.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(monera_ganggang.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_monera:
                 startActivity(new Intent(monera_ganggang.this, kingdommonera.class));
-                finish();
+                finish();break;
         }
         return false;
     }

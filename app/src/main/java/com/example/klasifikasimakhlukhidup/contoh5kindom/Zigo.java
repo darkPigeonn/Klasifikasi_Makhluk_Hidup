@@ -33,17 +33,17 @@ public class Zigo extends AppCompatActivity implements PopupMenu.OnMenuItemClick
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Zigo.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Zigo.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(Zigo.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_fungi:
                 startActivity(new Intent(Zigo.this, kingdommonera.class));
-                finish();
+                finish();break;
         }
         return false;
     }

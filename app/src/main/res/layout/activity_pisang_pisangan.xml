@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -33,6 +34,7 @@
             android:padding="10dp">
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="140dp"
@@ -51,7 +53,7 @@
                 android:textSize="16sp"
                 android:fontFamily="@font/aileron"
                 android:textColor="@color/black"
-                android:text="Pisang-pisangan (Musaceae), memiliki ciri-ciri antara lain daunnya berpelepah, tulang daun menyirip dan bentuknya seperti lancet, batang merupakan batang semu, bunga merupakan bunga majemuk yang berupa karangan, ada yang berkelamin satu dan ada yang berkelamin banyak. Contohnya: pisang ambon (Musa acuminata C.), pisang tanduk (Musa paradisiaca) (Gambar 3.40)."
+                android:text="@string/isi_pisang"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"/>

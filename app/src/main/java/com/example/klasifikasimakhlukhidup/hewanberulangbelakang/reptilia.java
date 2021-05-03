@@ -33,20 +33,20 @@ public class reptilia extends AppCompatActivity implements PopupMenu.OnMenuItemC
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(reptilia.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(reptilia.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(reptilia.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(reptilia.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_bertulang:
                 startActivity(new Intent(reptilia.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -35,20 +35,20 @@ public class lumuthati extends AppCompatActivity implements PopupMenu.OnMenuItem
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(lumuthati.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(lumuthati.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(lumuthati.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(lumuthati.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_paku:
                 startActivity(new Intent(lumuthati.this, paku.class));
-                finish();
+                finish();break;
         }
         return false;
     }

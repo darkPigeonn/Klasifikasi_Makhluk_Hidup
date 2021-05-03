@@ -33,10 +33,10 @@ public class TahapanKlasifikasi extends AppCompatActivity implements PopupMenu.O
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(TahapanKlasifikasi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(TahapanKlasifikasi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -38,10 +38,10 @@ public class latihan_soal extends AppCompatActivity implements PopupMenu.OnMenuI
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(latihan_soal.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(latihan_soal.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -31,13 +31,13 @@ public class BerkembangBiak extends AppCompatActivity implements PopupMenu.OnMen
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(BerkembangBiak.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(BerkembangBiak.this, hal10_menumateri.class));
-                finish();
+                finish();break;
             case R.id.menuciribar:
                 startActivity(new Intent(BerkembangBiak.this, hal12_ciricirimakhlukhidup.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -61,7 +61,7 @@ public class hal4_menukompetensi extends AppCompatActivity implements PopupMenu.
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal4_menukompetensi.this,hal2_menuutama.class));
-                finish();
+                finish();break;
         }
         return false;
     }

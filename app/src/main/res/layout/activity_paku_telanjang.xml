@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -27,7 +28,7 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -42,8 +43,7 @@
                 android:fontFamily="@font/alegreya"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="PAKU TELANJANG
-(PSILOPHYTINAE)"
+                android:text="@string/telanjanglabel"
                 android:background="@drawable/bg_ijo"/>
 
             <TextView
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:fontFamily="@font/aileron"
-                android:text="Paku telanjang (Psilophytinae), merupakan salah satu jenis tumbuhan paku yang hampir punah. Tumbuhan ini hidup di zaman purba dan sekarang ditemukan dalam bentuk fosil. Daunnya kecil, terkadang tidak berdaun. Contohnya: Psilotum (Psilotum nudum) (Gambar 3.45)."
+                android:text="@string/isi_telanjang"
                 android:textColor="@color/black"
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
@@ -64,7 +64,7 @@
                 android:background="@drawable/telanjanggambar"></com.zolad.zoominimageview.ZoomInImageView>
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 android:padding="10dp"
                 android:layout_width="200dp"

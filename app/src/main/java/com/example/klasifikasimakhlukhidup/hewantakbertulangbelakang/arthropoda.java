@@ -34,20 +34,20 @@ public class arthropoda extends AppCompatActivity implements PopupMenu.OnMenuIte
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(arthropoda.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(arthropoda.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(arthropoda.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(arthropoda.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_takbertulang:
                 startActivity(new Intent(arthropoda.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -32,7 +33,7 @@
 
             <TextView
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:text="TUMBUHAN BIJI BERKEPING SATU (MONOKOTIL)"
                 android:textAlignment="center"
                 android:textStyle="bold"
@@ -109,7 +110,7 @@
                     android:fontFamily="@font/alegreya"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="19sp"
+                    android:textSize="18sp"
                     android:padding="10dip"
                     android:text="@string/rumputlabel"
                     android:background="@drawable/bg_merahmuda"></Button>

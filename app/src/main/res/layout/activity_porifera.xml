@@ -14,18 +14,20 @@
      <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <ImageButton
-                android:layout_alignParentRight="true"
-                android:id="@+id/menubar"
-                android:layout_marginRight="0dp"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_baseline_menu_24"
-                android:onClick="showPopup" />
+
+         <ImageButton
+             android:layout_marginTop="20dp"
+             android:id="@+id/menubar"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="0dp"
+             android:background="@drawable/ic_baseline_menu_24"
+             android:onClick="showPopup" />
         </RelativeLayout>
 
         <LinearLayout
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -37,7 +39,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/alegreya"
                 android:textSize="19sp"
-                android:text="PORIFERA"
+                android:text="@string/porifera"
                 android:padding="18dip"
                 android:textColor="@color/black"
                 android:paddingBottom="10dip"
@@ -49,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
+        android:fontFamily="@font/aileron"
         android:justificationMode="inter_word"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -62,7 +65,7 @@
             android:background="@drawable/porigambar"></com.zolad.zoominimageview.ZoomInImageView>
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:padding="10dp"
             android:layout_width="200dp"

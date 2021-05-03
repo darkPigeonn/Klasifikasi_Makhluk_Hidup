@@ -33,20 +33,20 @@ public class pisces extends AppCompatActivity implements PopupMenu.OnMenuItemCli
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(pisces.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(pisces.this, hal10_menumateri.class));
                 finish();
-
+                break;
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(pisces.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(pisces.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_bertulang:
                 startActivity(new Intent(pisces.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

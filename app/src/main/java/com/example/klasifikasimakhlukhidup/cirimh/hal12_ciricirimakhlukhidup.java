@@ -95,10 +95,10 @@ public class hal12_ciricirimakhlukhidup extends AppCompatActivity implements Pop
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal12_ciricirimakhlukhidup.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(hal12_ciricirimakhlukhidup.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

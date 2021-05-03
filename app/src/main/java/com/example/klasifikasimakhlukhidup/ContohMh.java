@@ -40,10 +40,10 @@ public class ContohMh extends AppCompatActivity implements PopupMenu.OnMenuItemC
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(ContohMh.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(ContohMh.this, hal10_menumateri.class));
-                finish();
+                finish();break;
         }
         return false;
     }

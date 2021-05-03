@@ -34,7 +34,7 @@ public class hewanbertulang_belakang extends AppCompatActivity implements PopupM
 
         mama = findViewById(R.id.btnmama);
         amphibi = findViewById(R.id.btnamphi);
-        aves=findViewById(R.id.btnamphi);
+        aves=findViewById(R.id.btnaves);
         reptil = findViewById(R.id.btnreptil);
         pisces = findViewById(R.id.btnpisces);
 
@@ -82,17 +82,17 @@ public class hewanbertulang_belakang extends AppCompatActivity implements PopupM
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hewanbertulang_belakang.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(hewanbertulang_belakang.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(hewanbertulang_belakang.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(hewanbertulang_belakang.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

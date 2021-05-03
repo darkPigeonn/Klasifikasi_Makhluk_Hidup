@@ -33,20 +33,20 @@ public class echinodermata extends AppCompatActivity implements PopupMenu.OnMenu
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(echinodermata.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(echinodermata.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(echinodermata.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia:
                 startActivity(new Intent(echinodermata.this, kingdom_animalia.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_animalia_takbertulang:
                 startActivity(new Intent(echinodermata.this, kingdom_animalia.class));
-                finish();
+                finish();break;
         }
         return false;
     }

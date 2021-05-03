@@ -13,6 +13,8 @@
 
 
         <LinearLayout
+            android:layout_above="@id/bawah"
+            android:gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -51,70 +53,75 @@
 
             </LinearLayout>
 
-
-            <TextView
-                android:fontFamily="@font/aileron"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="   Berikut ini contoh dari makhluk hidup (Gambar 3.14) yaitu manusia sedang bermain bola dan tak hidup (Gambar 3.15) yaitu robot sebagai berikut:"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                android:padding="10dip"
-                android:justificationMode="inter_word"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content">
 
-                <com.zolad.zoominimageview.ZoomInImageView
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/g1"/>
-                <com.zolad.zoominimageview.ZoomInImageView
-                    android:layout_marginLeft="10dp"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/robot1"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:padding="10dp"
-                    android:layout_width="200dp"
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/aileron"
-                    android:text="Gambar 3.15 : Makhluk hidup (manusia) bermain bola
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="@font/aileron"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="   Berikut ini contoh dari makhluk hidup (Gambar 3.14) yaitu manusia sedang bermain bola dan tak hidup (Gambar 3.15) yaitu robot sebagai berikut:"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:padding="10dip"
+                        android:justificationMode="inter_word"/>
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/g1"/>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="Gambar 3.15 : Makhluk hidup (manusia) bermain bola
 Sumber : appletreebsd.com"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:background="@color/white"/>
-
-                <TextView
-                    android:layout_marginLeft="10dp"
-                    android:padding="10dp"
-                    android:layout_width="190dp"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/aileron"
-                   android:text="Gambar 3.16 : Makhluk tak hidup (robot)
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/robot1"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aileron"
+                        android:text="Gambar 3.16 : Makhluk tak hidup (robot)
 Sumber : oniontees.com"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:background="@color/white"/>
-            </LinearLayout>
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:background="@color/white"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
 
 
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/bawah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

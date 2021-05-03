@@ -69,17 +69,17 @@ public class paku extends AppCompatActivity implements PopupMenu.OnMenuItemClick
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(paku.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(paku.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(paku.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(paku.this, kingdom_plantae.class));
-                finish();
+                finish();break;
         }
         return false;
     }

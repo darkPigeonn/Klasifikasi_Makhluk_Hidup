@@ -31,13 +31,13 @@ public class Ekspresi extends AppCompatActivity implements PopupMenu.OnMenuItemC
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Ekspresi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Ekspresi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
             case R.id.menuciribar:
                 startActivity(new Intent(Ekspresi.this, hal12_ciricirimakhlukhidup.class));
-                finish();
+                finish();break;
         }
         return false;
     }

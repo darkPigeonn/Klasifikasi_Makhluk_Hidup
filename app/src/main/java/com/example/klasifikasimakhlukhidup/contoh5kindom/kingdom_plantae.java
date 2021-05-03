@@ -72,14 +72,14 @@ public class kingdom_plantae extends AppCompatActivity implements PopupMenu.OnMe
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(kingdom_plantae.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(kingdom_plantae.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(kingdom_plantae.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

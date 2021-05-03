@@ -31,23 +31,23 @@ public class coniferophyta extends AppCompatActivity implements PopupMenu.OnMenu
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(coniferophyta.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(coniferophyta.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(coniferophyta.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(coniferophyta.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji:
                 startActivity(new Intent(coniferophyta.this, spermatophyta.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_biji_buka:
                 startActivity(new Intent(coniferophyta.this, gymnospermae.class));
-                finish();
+                finish();break;
         }
         return false;
     }

@@ -34,20 +34,20 @@ public class PakuSejati extends AppCompatActivity implements PopupMenu.OnMenuIte
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(PakuSejati.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(PakuSejati.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(PakuSejati.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae:
                 startActivity(new Intent(PakuSejati.this, kingdom_plantae.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_plantae_paku:
                 startActivity(new Intent(PakuSejati.this, paku.class));
-                finish();
+                finish();break;
         }
         return false;
     }

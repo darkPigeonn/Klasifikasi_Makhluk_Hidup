@@ -7,6 +7,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
@@ -20,7 +21,7 @@ import com.example.klasifikasimakhlukhidup.klasifikasimh.UrutanTaksonHewanDanTum
 import com.example.klasifikasimakhlukhidup.perkembangansistemklasifikasi.PerkembanganSistemKlasifikasi;
 
 public class kingdom_fungi extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
-    ImageButton acomy,basidio,zigo,deuteru;
+    Button acomy,basidio,zigo,deuteru;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,14 +82,14 @@ public class kingdom_fungi extends AppCompatActivity implements PopupMenu.OnMenu
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(kingdom_fungi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(kingdom_fungi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(kingdom_fungi.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

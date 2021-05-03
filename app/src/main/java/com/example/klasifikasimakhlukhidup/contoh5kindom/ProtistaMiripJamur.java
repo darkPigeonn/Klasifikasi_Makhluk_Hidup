@@ -33,17 +33,17 @@ public class ProtistaMiripJamur extends AppCompatActivity implements PopupMenu.O
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(ProtistaMiripJamur.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(ProtistaMiripJamur.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(ProtistaMiripJamur.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_protista:
                 startActivity(new Intent(ProtistaMiripJamur.this, kingdommonera.class));
-                finish();
+                finish();break;
         }
         return false;
     }

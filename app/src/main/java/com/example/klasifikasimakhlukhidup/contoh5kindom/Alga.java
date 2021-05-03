@@ -33,17 +33,17 @@ public class Alga extends AppCompatActivity implements PopupMenu.OnMenuItemClick
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Alga.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Alga.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(Alga.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_protista:
                 startActivity(new Intent(Alga.this, kingdommonera.class));
-                finish();
+                finish();break;
         }
         return false;
     }

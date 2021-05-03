@@ -33,17 +33,17 @@ public class Basidio extends AppCompatActivity implements PopupMenu.OnMenuItemCl
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(Basidio.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(Basidio.this, hal10_menumateri.class));
-                finish();
+                finish();break;
 
             case R.id.menusistemklasifikasi:
                 startActivity(new Intent(Basidio.this, PerkembanganSistemKlasifikasi.class));
-                finish();
+                finish();break;
             case R.id.menusistemklasifikasi_fungi:
                 startActivity(new Intent(Basidio.this, kingdommonera.class));
-                finish();
+                finish();break;
         }
         return false;
     }

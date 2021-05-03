@@ -27,13 +27,13 @@ public class kingdom_rugi extends AppCompatActivity implements PopupMenu.OnMenuI
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(kingdom_rugi.this, hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menumateribarr:
                 startActivity(new Intent(kingdom_rugi.this, hal10_menumateri.class));
-                finish();
+                finish();break;
             case R.id.menuperanan:
                 startActivity(new Intent(kingdom_rugi.this, peranan_kingdom.class));
-                finish();
+                finish();break;
         }
         return false;
     }

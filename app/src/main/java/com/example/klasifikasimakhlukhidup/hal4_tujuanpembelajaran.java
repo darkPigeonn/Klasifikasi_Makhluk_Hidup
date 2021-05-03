@@ -27,10 +27,10 @@ public class hal4_tujuanpembelajaran extends AppCompatActivity implements PopupM
         switch (item.getItemId()) {
             case R.id.menuutama:
                 startActivity(new Intent(hal4_tujuanpembelajaran.this,hal2_menuutama.class));
-                finish();
+                finish();break;
             case R.id.menukompetensibar:
                 startActivity(new Intent(hal4_tujuanpembelajaran.this,hal4_menukompetensi.class));
-                finish();
+                finish();break;
         }
         return false;
     }

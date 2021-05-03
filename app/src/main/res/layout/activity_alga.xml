@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -32,7 +33,7 @@
         android:padding="10dp">
     <TextView
         android:textAlignment="center"
-        android:padding="10dp"
+
         android:layout_marginEnd="110dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -62,8 +63,7 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/aileron"
                     android:justificationMode="inter_word"
-                    android:text="rotista mirip tumbuhan digolongkan menjadi empat jenis berdasarkan pigmen yang dikandungnya diantaranya adalah alga hijau, alga kersik, alga merah dan alga pirang.
--Alga hijau (Chlorophyceae), memiliki ciri-ciri diantaranya mempunyai pigmen hijau, multiseluler, berbentuk benang atau lembaran. Contohnya: Spirogyra, Chlorella dan Chlorococcum (Gambar 3.25)."
+                    android:text="@string/alga1"
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -85,8 +85,7 @@
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:text="-Alga kersik (Chrysophyceae), memiliki ciri-ciri diantaranya bangkai alga ini didasar laut akan membentuk lapisan tanah yang disebut diatom.
--Alga merah (Rhodophyceae), memiliki ciri-ciri diantaranya yaitu mempunyai pigmen fikoeritrin (merah), hidup dilaut. Contohnya: Eucheuma spinosum (Gambar 3.26)"/>
+                    android:text="@string/Alga2"/>
 
                 <com.zolad.zoominimageview.ZoomInImageView
                     android:layout_width="match_parent"
@@ -97,15 +96,15 @@
                     android:scaleType="fitXY"/>
 
                 <TextView
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:justificationMode="inter_word"
+                    android:layout_marginTop="5dp"
                     android:fontFamily="@font/aileron"
-                    android:textStyle="bold"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Alga3"
                     android:textColor="@color/white"
-                    android:text="-Alga pirang (Phaeophyceae), hidup pada habitat perairan tawar dan perairan laut, berwarna keemasan, banyak mengandung asam alginat serta bereproduksi dengan cara seksual dan aseksual. Contohnya: Sargassum dan Turbinaria (Gambar 3.27)"/>
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
                 <com.zolad.zoominimageview.ZoomInImageView
                     android:layout_width="match_parent"

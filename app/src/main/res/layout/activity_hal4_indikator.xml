@@ -25,6 +25,7 @@
                 android:background="@drawable/ipk"/>
 
             <ImageButton
+                android:layout_marginTop="19dp"
                 android:id="@+id/menubar"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

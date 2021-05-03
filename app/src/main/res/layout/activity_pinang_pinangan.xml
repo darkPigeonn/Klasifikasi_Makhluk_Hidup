@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -35,6 +36,7 @@
 
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="140dp"
@@ -52,7 +54,7 @@
                 android:textSize="16sp"
                 android:fontFamily="@font/aileron"
                 android:textColor="@color/black"
-                android:text="Pinang-pinangan (Palmae), memiliki ciri-ciri yaitu daunnya menyitip atau berbentuk kipas, tidak bercabang, perakaran serabut, bunga biasanya berupa tongkol atau   karangan yang terletak pada ketiak daun atau ujung daun dan biasanya hidup berumpun. Contohnya kelapa (Cocus nucifera), pinang (Areca catechu), sagu  (Metroxylon  sagu), enau (Arenga pinnata) dan kelapa sawit (Elaeis guinensis) (Gambar 3.41)."
+                android:text="@string/isi_pinang"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"/>

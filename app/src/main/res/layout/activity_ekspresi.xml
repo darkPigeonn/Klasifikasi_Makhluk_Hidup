@@ -63,7 +63,7 @@
                 android:layout_height="200dp"
                 android:src="@drawable/eksreasi" />
             <TextView
-
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:padding="10dp"

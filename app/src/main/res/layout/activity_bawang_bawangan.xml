@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageButton
+                android:layout_marginTop="20dp"
                 android:layout_alignParentRight="true"
                 android:id="@+id/menubar"
                 android:layout_marginRight="0dp"
@@ -33,6 +34,7 @@
             android:padding="10dp">
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 android:padding="10dp"
                 android:layout_marginEnd="140dp"
@@ -41,7 +43,7 @@
                 android:textSize="19sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="BAWANG - BAWANGAN (LILIACEAE)"
+                android:text="@string/bawanglabel"
                 android:background="@drawable/bg_pink"/>
 
             <TextView
@@ -50,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:fontFamily="@font/aileron"
-                android:text="Bawang-bawangan (Liliaceae), merupakan semak basah atau tumbuhan perdu, akar serabut, memiliki umbi lapis atau akar rimpang. contohnya lidah buaya (Aloe vera),  tulip (Tulipa), bawang putih (Allium sativum), bunga lili (Lilium bosniacum) dan bawang merah (Allium cepa) (Gambar 3.42)."
+                android:text="@string/isibawang"
                 android:textColor="@color/black"
                 android:layout_marginTop="30dp"
                 android:justificationMode="inter_word"
